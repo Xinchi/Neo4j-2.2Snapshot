@@ -601,7 +601,7 @@
           <minifyOnlyAggregatedFiles>true</minifyOnlyAggregatedFiles>
         </configuration>
       </plugin>
-
+<!--
       <plugin>
         <groupId>com.github.searls</groupId>
         <artifactId>jasmine-maven-plugin</artifactId>
@@ -617,12 +617,11 @@
         <configuration>
           <jsTestSrcDir>${project.build.outputDirectory}/webadmin-html/js/test</jsTestSrcDir>
           <customRunnerTemplate>src/test/resources/SpecRunner.htmlTemplate</customRunnerTemplate>
-          <specRunnerTemplate>REQUIRE_JS</specRunnerTemplate>
-          <!-- *Must* be relative to jasmine dir -->
+          <specRunnerTemplate>REQUIRE_JS</specRunnerTemplate>      
           <junitXmlReportFileName>../surefire-reports/TEST-Webadmin.xml</junitXmlReportFileName>
         </configuration>
       </plugin>
-
+-->
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
