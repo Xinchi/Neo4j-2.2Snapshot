@@ -42,7 +42,6 @@ public class ServerExecutionEngine extends ExecutionEngine
     {
         super( database, logger );
     }
-
     @Override
     protected
     org.neo4j.cypher.ExecutionEngine createInnerEngine(GraphDatabaseService database, StringLogger logger)

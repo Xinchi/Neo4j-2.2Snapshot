@@ -20,7 +20,7 @@
 package org.neo4j.cypher.javacompat;
 
 import java.util.Map;
-
+import java.io.*;
 import org.neo4j.cypher.CypherException;
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.kernel.impl.util.StringLogger;
@@ -40,6 +40,7 @@ public class ExecutionEngine
      */
     public ExecutionEngine( GraphDatabaseService database )
     {
+        Logger.logMessage("ExecutionEngine constructor 1");
         inner = createInnerEngine( database, DEV_NULL );
     }
 
@@ -50,6 +51,7 @@ public class ExecutionEngine
      */
     public ExecutionEngine( GraphDatabaseService database, StringLogger logger )
     {
+        Logger.logMessage("ExecutionEngine constructor 2");
         inner = createInnerEngine( database, logger );
     }
 
@@ -128,4 +130,23 @@ public class ExecutionEngine
     {
         return inner.prettify( query );
     }
+
+
 }
+
+/**
+ *  This class is used to create log file
+ */
+class Logger {
+    public static void logMessage(String message) {
+        try {
+            PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("output.txt", true)));
+            out.println(message);
+            out.close();
+        } catch(IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+
