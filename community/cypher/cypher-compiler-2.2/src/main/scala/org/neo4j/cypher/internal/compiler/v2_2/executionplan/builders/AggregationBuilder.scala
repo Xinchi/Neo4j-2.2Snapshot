@@ -50,6 +50,7 @@ value.
 
 class AggregationBuilder extends PlanBuilder  {
   def apply(plan: ExecutionPlanInProgress, ctx: PlanContext)(implicit pipeMonitor: PipeMonitor) = {
+
     // First, calculate the key expressions and save them down to the map
     val keyExpressionsToExtract: ExtractedExpressions = getExpressions(plan)
     val planToAggregate = ExtractBuilder.extractIfNecessary(plan, keyExpressionsToExtract.keys)

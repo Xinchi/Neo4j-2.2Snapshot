@@ -19,12 +19,19 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2.planner.QueryGraph
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.LogicalPlanProducer._
+import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.allNodesLeafPlanner._
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.{LeafPlanner, LogicalPlanningContext}
 
 object argumentLeafPlanner extends LeafPlanner {
   def apply(qg: QueryGraph)(implicit context: LogicalPlanningContext) = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(""+getClass() + "[apply]")
+    fbw.close()
     val givenNodeIds = qg.argumentIds intersect qg.patternNodes
     if (givenNodeIds.isEmpty)
       context.metrics.candidateListCreator(Seq.empty)

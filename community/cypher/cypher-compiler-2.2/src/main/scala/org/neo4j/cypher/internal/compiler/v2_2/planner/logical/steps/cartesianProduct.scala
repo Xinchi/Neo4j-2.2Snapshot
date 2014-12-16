@@ -19,15 +19,22 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical._
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.{CartesianProduct, LogicalPlan}
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.LogicalPlanProducer._
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CandidateList
 import org.neo4j.cypher.internal.compiler.v2_2.planner.QueryGraph
+import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.allNodesLeafPlanner._
 import org.neo4j.cypher.internal.helpers.Converge.iterateUntilConverged
 
 object cartesianProduct extends CandidateGenerator[PlanTable] {
   def apply(planTable: PlanTable, ignored: QueryGraph)(implicit context: LogicalPlanningContext): CandidateList = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(""+getClass() + "[apply]")
+    fbw.close()
     val usablePlans = iterateUntilConverged { usablePlans: Set[LogicalPlan] =>
       val cartesianProducts = for (planA <- usablePlans; planB <- usablePlans if planA != planB) yield planCartesianProduct(planA, planB)
       if (cartesianProducts.isEmpty) {

@@ -19,6 +19,8 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.{LogicalPlanningContext, LeafPlanner, CandidateList}
 import org.neo4j.cypher.internal.compiler.v2_2.planner.QueryGraph
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.LogicalPlanProducer._
@@ -30,4 +32,8 @@ object allNodesLeafPlanner extends LeafPlanner {
         .filter(!queryGraph.argumentIds.contains(_))
         .map(planAllNodesScan(_, queryGraph.argumentIds)).toSeq
     )
+  // Logger created by Max
+  val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+  fbw.println(""+getClass() + "[apply]")
+  fbw.close()
 }

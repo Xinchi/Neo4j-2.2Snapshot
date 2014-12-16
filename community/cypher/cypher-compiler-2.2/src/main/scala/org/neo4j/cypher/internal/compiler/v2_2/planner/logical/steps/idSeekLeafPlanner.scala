@@ -19,7 +19,10 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2.ast._
+import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand._
 import org.neo4j.cypher.internal.compiler.v2_2.{InputPosition, functions}
 import org.neo4j.cypher.internal.compiler.v2_2.planner.QueryGraph
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical._
@@ -29,6 +32,10 @@ import org.neo4j.graphdb.Direction.{BOTH, INCOMING, OUTGOING}
 
 object idSeekLeafPlanner extends LeafPlanner {
   def apply(queryGraph: QueryGraph)(implicit context: LogicalPlanningContext) = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(""+getClass() + "[apply]")
+    fbw.close()
     val predicates: Seq[Expression] = queryGraph.selections.flatPredicates
 
     val idSeekPredicates: Seq[(In, Identifier, EntityByIdRhs)] = predicates.collect {
@@ -62,6 +69,10 @@ object idSeekLeafPlanner extends LeafPlanner {
   }
 
   private def planRelationshipByIdSeek(relationship: PatternRelationship, idValues: EntityByIdRhs, predicates: Seq[Expression], argumentIds: Set[IdName]): LogicalPlan = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(""+getClass() + "[planRelationshipByIdSeek]")
+    fbw.close()
     val (left, right) = relationship.nodes
     val name = relationship.name
     relationship.dir match {
@@ -72,6 +83,10 @@ object idSeekLeafPlanner extends LeafPlanner {
   }
 
   private def planRelTypeFilter(plan: LogicalPlan, idExpr: Identifier, relTypes: List[RelTypeName]): LogicalPlan = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(""+getClass() + "[planRelTypeFilter]")
+    fbw.close()
     relTypes match {
       case Seq(tpe) =>
         val relTypeExpr = relTypeAsStringLiteral(tpe)

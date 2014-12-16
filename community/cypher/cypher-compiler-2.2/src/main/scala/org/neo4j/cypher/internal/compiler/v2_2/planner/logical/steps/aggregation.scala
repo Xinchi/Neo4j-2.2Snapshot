@@ -19,6 +19,8 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2.ast.Expression
 import org.neo4j.cypher.internal.compiler.v2_2.planner.AggregatingQueryProjection
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.LogicalPlanningContext
@@ -27,6 +29,11 @@ import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.LogicalPlan
 
 object aggregation {
   def apply(plan: LogicalPlan, aggregation: AggregatingQueryProjection)(implicit context: LogicalPlanningContext): LogicalPlan = {
+
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(""+getClass() + "[apply]")
+    fbw.close()
 
     val aggregationProjections: Map[String, Expression] = aggregation.groupingKeys
 

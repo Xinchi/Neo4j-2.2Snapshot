@@ -19,6 +19,7 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare
 
+import java.io._
 import org.neo4j.cypher.internal.compiler.v2_2.executionplan.{PartiallySolvedQuery, ExecutionPlanInProgress, PlanBuilder}
 import org.neo4j.cypher.internal.compiler.v2_2.spi.{TokenContext, PlanContext}
 import org.neo4j.cypher.internal.compiler.v2_2.commands.expressions.Expression
@@ -28,11 +29,28 @@ import org.neo4j.cypher.internal.compiler.v2_2.pipes.PipeMonitor
 class KeyTokenResolver extends PlanBuilder {
 
   def canWorkWith(plan: ExecutionPlanInProgress, ctx: PlanContext)(implicit pipeMonitor: PipeMonitor) = {
+
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(""+getClass())
+    fbw.close()
+
+
+
+
+
+
+
     val newPlan = apply(plan, ctx)
     plan != newPlan
   }
 
   def apply(plan: ExecutionPlanInProgress, ctx: PlanContext)(implicit pipeMonitor: PipeMonitor) = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(""+getClass())
+    fbw.close()
+
     val rewrittenQuery: PartiallySolvedQuery = plan.query.rewrite(resolveExpressions(_, ctx))
     plan.copy(query = rewrittenQuery)
   }

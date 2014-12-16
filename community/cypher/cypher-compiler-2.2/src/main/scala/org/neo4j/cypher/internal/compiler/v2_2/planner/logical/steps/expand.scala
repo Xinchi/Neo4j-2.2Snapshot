@@ -19,14 +19,21 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical._
 import org.neo4j.cypher.internal.compiler.v2_2.ast._
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.LogicalPlanProducer._
 import org.neo4j.cypher.internal.compiler.v2_2.planner.QueryGraph
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.{LogicalPlan, IdName}
+import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.allNodesLeafPlanner._
 
 object expand extends CandidateGenerator[PlanTable] {
   def apply(planTable: PlanTable, queryGraph: QueryGraph)(implicit context: LogicalPlanningContext): CandidateList = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(""+getClass() + "[apply]")
+    fbw.close()
     val expandPlans: Seq[LogicalPlan] = for {
       plan <- planTable.plans
       nodeId <- plan.solved.graph.patternNodes
@@ -66,6 +73,10 @@ object expand extends CandidateGenerator[PlanTable] {
    */
   private def expandIntoAlreadyExistingNode(f: IdName => LogicalPlan, otherSide: IdName)
                                            (implicit context: LogicalPlanningContext): LogicalPlan = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(""+getClass() + "[expandIntoAlreadyExistingNode]")
+    fbw.close()
     val temp = IdName(otherSide.name + "$$$")
     val expand = f(temp)
     val left = Identifier(otherSide.name)(null)
