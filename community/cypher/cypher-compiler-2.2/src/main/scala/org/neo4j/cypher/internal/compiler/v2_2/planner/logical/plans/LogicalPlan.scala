@@ -37,7 +37,9 @@ to data in the database, to the root, which is the final operator producing the 
 abstract class LogicalPlan
   extends Product
   with Rewritable
-  with PageDocFormatting {
+  with PageDocFormatting
+  with Serializable {
+
 
   self =>
 
@@ -55,6 +57,8 @@ abstract class LogicalPlan
     case plan: LogicalPlan
       if plan.lhs.isEmpty && plan.rhs.isEmpty => (acc, r) => r(acc :+ plan)
   }
+
+  override def toString = s"Implementing Serializable"
 
   def updateSolved(newSolved: PlannerQuery): LogicalPlan = {
     val arguments = this.children.toList :+ newSolved

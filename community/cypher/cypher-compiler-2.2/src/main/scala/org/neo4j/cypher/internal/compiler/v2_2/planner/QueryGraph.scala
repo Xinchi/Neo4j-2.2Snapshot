@@ -19,6 +19,8 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2.ast._
 import org.neo4j.cypher.internal.compiler.v2_2.ast.convert.plannerQuery.ExpressionConverters._
 import org.neo4j.cypher.internal.compiler.v2_2.perty._
@@ -38,6 +40,13 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
 //  def toDefaultPrettyString(formatter: DocFormatter) =
 //    toPrettyString(formatter)(InternalDocHandler.docGen)
 
+  def log(msg:String) = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println(msg)
+    fbw.close()
+  }
+
   def addPatternNodes(nodes: IdName*): QueryGraph = copy(patternNodes = patternNodes ++ nodes)
 
   def addPatternRel(rel: PatternRelationship): QueryGraph =
@@ -50,6 +59,7 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
     rels.foldLeft[QueryGraph](this)((qg, rel) => qg.addPatternRel(rel))
 
   def addShortestPath(shortestPath: ShortestPathPattern): QueryGraph = {
+    log("addShortestPath")
     val rel = shortestPath.rel
     copy (
       patternNodes = patternNodes + rel.nodes._1 + rel.nodes._2,
@@ -63,6 +73,7 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
     copy(selections = Selections(selections.predicates ++ this.selections.predicates))
 
   def addPredicates(predicates: Expression*): QueryGraph = {
+    log("addPredicates")
     val newSelections = Selections(predicates.flatMap(_.asPredicates).toSet)
     copy(selections = selections ++ newSelections)
   }
@@ -74,6 +85,7 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
     copy(argumentIds = newArgumentIds)
 
   def withAddedOptionalMatch(optionalMatch: QueryGraph): QueryGraph = {
+    log("withAddedOptionalMatch")
     val argumentIds = allCoveredIds intersect optionalMatch.allCoveredIds
     copy(optionalMatches = optionalMatches :+ optionalMatch.addArgumentId(argumentIds.toSeq))
   }
@@ -96,11 +108,13 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
     patternNodes ++ optionalMatches.flatMap(_.allPatternNodes)
 
   def coveredIds: Set[IdName] = {
+    log("coveredIds")
     val patternIds = QueryGraph.coveredIdsForPatterns(patternNodes, patternRelationships)
     patternIds ++ argumentIds ++ selections.predicates.flatMap(_.dependencies)
   }
 
   def allCoveredIds: Set[IdName] = {
+    log("allCoveredIds")
     val optionalMatchIds = optionalMatches.flatMap(_.allCoveredIds)
     coveredIds ++ optionalMatchIds
   }
@@ -152,15 +166,17 @@ object QueryGraph {
   val empty = QueryGraph()
 
   def coveredIdsForPatterns(patternNodeIds: Set[IdName], patternRels: Set[PatternRelationship]) = {
+    empty.log("coveredIdsForPatterns")
     val patternRelIds = patternRels.flatMap(_.coveredIds)
     patternNodeIds ++ patternRelIds
   }
 
   implicit object byCoveredIds extends Ordering[QueryGraph] {
-
+    empty.log("byCoveredIds constructor")
     import scala.math.Ordering.Implicits
 
     def compare(x: QueryGraph, y: QueryGraph): Int = {
+      empty.log("compare")
       val xs = x.coveredIds.toSeq.sorted(IdName.byName)
       val ys = y.coveredIds.toSeq.sorted(IdName.byName)
       Implicits.seqDerivedOrdering[Seq, IdName](IdName.byName).compare(xs, ys)

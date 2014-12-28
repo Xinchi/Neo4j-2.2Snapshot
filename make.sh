@@ -1,0 +1,16 @@
+#kill $(sudo lsof -t -i:7474);
+#mvn clean install -DminimalBuild -DskipBrowser -U;
+cd /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging;
+mvn package;
+cd /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target;
+tar -vxzf neo4j-community-2.2-SNAPSHOT-unix.tar.gz;
+rm -rf /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H);
+mv neo4j-community-2.2-SNAPSHOT $(date +%Y%m%d-%H);
+cd /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H);
+bin/neo4j start;
+bin/neo4j stop;
+rm -rf data/graph.db/;
+cp -r /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/neo4j-community-2.2-SNAPSHOT12_16/data/graph.db /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H)/data/;
+cp /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/neo4j-community-2.2-SNAPSHOT12_16/conf/neo4j.properties /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H)/conf/;
+cp /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/neo4j-community-2.2-SNAPSHOT12_16/conf/neo4j-wrapper.conf /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H)/conf/;
+bin/neo4j start;

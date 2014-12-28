@@ -34,6 +34,6 @@ object allNodesLeafPlanner extends LeafPlanner {
     )
   // Logger created by Max
   val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-  fbw.println(""+getClass() + "[apply]")
+  fbw.println(""+getClass() + "[apply]"+"This is to test the automated process")
   fbw.close()
 }
