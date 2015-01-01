@@ -43,8 +43,55 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
   def log(msg:String) = {
     // Logger created by Max
     val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+    fbw.println("############################### BEGIN ############################### ")
     fbw.println(msg)
+    fbw.println(toString())
     fbw.close()
+  }
+
+  override def toString(): String = {
+    val sb = new StringBuilder
+    // patternRelationships
+    sb.append("patternRelationships: Set[PatternRelationship] = [")
+    val it =  patternRelationships.iterator
+    while(it.hasNext) {
+      val patternRelationship = it.next()
+      sb.append(patternRelationship.name+",")
+    }
+    sb.append("]")
+   // patternNodes
+    sb.append("patternNodes: Set[IdName] = [")
+    val it2 = patternNodes.iterator
+      while(it2.hasNext) {
+        val patternNode = it2.next()
+        sb.append(patternNode.name+",")
+      }
+    sb.append("]\n")
+    // argumentIds
+    sb.append("argumentIds: Set[IdName] = [")
+    val it3 = argumentIds.iterator
+    while(it3.hasNext) {
+      val argumentId = it3.next()
+      sb.append(argumentId.name+",")
+    }
+    sb.append("]\n")
+
+    // argumentIds
+    sb.append("selections: Set[IdName] = [")
+    val it4 = selections.predicates.iterator
+    while(it4.hasNext) {
+      val predicate = it4.next()
+      val it5 = predicate.dependencies.iterator
+      sb.append("dependency: Set[IdName] = [")
+      while(it5.hasNext) {
+        val dependency = it5.next()
+        sb.append(dependency.name+",")
+      }
+      sb.append("]\n")
+    }
+    sb.append("]\n")
+
+    return sb.toString()
   }
 
   def addPatternNodes(nodes: IdName*): QueryGraph = copy(patternNodes = patternNodes ++ nodes)

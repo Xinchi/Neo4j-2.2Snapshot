@@ -33,7 +33,7 @@ object allNodesLeafPlanner extends LeafPlanner {
         .map(planAllNodesScan(_, queryGraph.argumentIds)).toSeq
     )
   // Logger created by Max
-  val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-  fbw.println(""+getClass() + "[apply]"+"This is to test the automated process")
-  fbw.close()
+//  val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+//  fbw.println(""+getClass() + "[apply]"+"This is to test the automated process")
+//  fbw.close()
 }

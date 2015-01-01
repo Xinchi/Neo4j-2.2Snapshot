@@ -33,9 +33,9 @@ import org.neo4j.graphdb.Direction.{BOTH, INCOMING, OUTGOING}
 object idSeekLeafPlanner extends LeafPlanner {
   def apply(queryGraph: QueryGraph)(implicit context: LogicalPlanningContext) = {
     // Logger created by Max
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-    fbw.println(""+getClass() + "[apply]")
-    fbw.close()
+//    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+//    fbw.println(""+getClass() + "[apply]")
+//    fbw.close()
     val predicates: Seq[Expression] = queryGraph.selections.flatPredicates
 
     val idSeekPredicates: Seq[(In, Identifier, EntityByIdRhs)] = predicates.collect {
@@ -70,9 +70,9 @@ object idSeekLeafPlanner extends LeafPlanner {
 
   private def planRelationshipByIdSeek(relationship: PatternRelationship, idValues: EntityByIdRhs, predicates: Seq[Expression], argumentIds: Set[IdName]): LogicalPlan = {
     // Logger created by Max
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-    fbw.println(""+getClass() + "[planRelationshipByIdSeek]")
-    fbw.close()
+//    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+//    fbw.println(""+getClass() + "[planRelationshipByIdSeek]")
+//    fbw.close()
     val (left, right) = relationship.nodes
     val name = relationship.name
     relationship.dir match {
@@ -84,9 +84,9 @@ object idSeekLeafPlanner extends LeafPlanner {
 
   private def planRelTypeFilter(plan: LogicalPlan, idExpr: Identifier, relTypes: List[RelTypeName]): LogicalPlan = {
     // Logger created by Max
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-    fbw.println(""+getClass() + "[planRelTypeFilter]")
-    fbw.close()
+//    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+//    fbw.println(""+getClass() + "[planRelTypeFilter]")
+//    fbw.close()
     relTypes match {
       case Seq(tpe) =>
         val relTypeExpr = relTypeAsStringLiteral(tpe)

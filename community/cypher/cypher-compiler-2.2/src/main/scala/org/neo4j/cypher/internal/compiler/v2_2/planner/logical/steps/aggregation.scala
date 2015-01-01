@@ -31,9 +31,9 @@ object aggregation {
   def apply(plan: LogicalPlan, aggregation: AggregatingQueryProjection)(implicit context: LogicalPlanningContext): LogicalPlan = {
 
     // Logger created by Max
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-    fbw.println(""+getClass() + "[apply]")
-    fbw.close()
+//    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+//    fbw.println(""+getClass() + "[apply]")
+//    fbw.close()
 
     val aggregationProjections: Map[String, Expression] = aggregation.groupingKeys
 

@@ -29,9 +29,9 @@ import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.{LeafPlanner, Log
 object argumentLeafPlanner extends LeafPlanner {
   def apply(qg: QueryGraph)(implicit context: LogicalPlanningContext) = {
     // Logger created by Max
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-    fbw.println(""+getClass() + "[apply]")
-    fbw.close()
+//    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+//    fbw.println(""+getClass() + "[apply]")
+//    fbw.close()
     val givenNodeIds = qg.argumentIds intersect qg.patternNodes
     if (givenNodeIds.isEmpty)
       context.metrics.candidateListCreator(Seq.empty)

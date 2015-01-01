@@ -1,7 +1,7 @@
-#kill $(sudo lsof -t -i:7474);
+kill $(sudo lsof -t -i:7474);
 #mvn clean install -DminimalBuild -DskipBrowser -U;
 cd /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging;
-mvn package;
+mvn package -Dlicense.skip=true;
 cd /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target;
 tar -vxzf neo4j-community-2.2-SNAPSHOT-unix.tar.gz;
 rm -rf /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H);

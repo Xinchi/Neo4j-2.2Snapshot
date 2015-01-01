@@ -580,3 +580,1337 @@ addPredicates
 addPredicates
 class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
 class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.allNodesLeafPlanner$[apply]This is to test the automated process
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.allNodesLeafPlanner$[apply]This is to test the automated process
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+coveredIdsForPatterns
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+addPredicates
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.allNodesLeafPlanner$[apply]This is to test the automated process
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+coveredIds
+patternRelationships: Set[PatternRelationship] =[]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+patternRelationships: Set[PatternRelationship] =[]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+patternRelationships: Set[PatternRelationship] =[]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+class org.neo4j.cypher.internal.compiler.v2_2.executionplan.builders.prepare.KeyTokenResolver
+coveredIds
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.argumentLeafPlanner$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.idSeekLeafPlanner$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.expand$[apply]
+class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.steps.cartesianProduct$[apply]
+coveredIds
+patternRelationships: Set[PatternRelationship] =[]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+coveredIds
+patternRelationships: Set[PatternRelationship] =[]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+coveredIds
+patternRelationships: Set[PatternRelationship] =[]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+coveredIds
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+coveredIds
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+coveredIds
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r2),IdName(r1),]
+addPredicates
+patternRelationships: Set[PatternRelationship] =[IdName(r1),IdName(r2),]
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,  UNNAMED46,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [friend_of_a_friend,  UNNAMED46,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [user,  UNNAMED46,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [  UNNAMED46,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [  UNNAMED46,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [  UNNAMED46,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,  UNNAMED46,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,  UNNAMED46,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,  UNNAMED46,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,  UNNAMED46,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,  UNNAMED46,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,  UNNAMED46,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [user,friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [friend,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [friend,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [friend,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [user,friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [friend,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [friend,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [friend,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,user,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+############################### END ############################### 
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [p,]
+]
+
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [p,]
+dependency: Set[IdName] = [p,]
+]
+
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [p,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [p,]
+dependency: Set[IdName] = [p,]
+]
+
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [p,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [p,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [r1,r2,]
+dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [friend_of_a_friend,  UNNAMED46,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [user,  UNNAMED46,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [  UNNAMED46,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [  UNNAMED46,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [  UNNAMED46,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [user,friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [friend,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [friend,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [friend,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+coveredIds
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [r1,r2,]
+dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+coveredIdsForPatterns
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = []
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = []patternNodes: Set[IdName] = [user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [user,friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [friend,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),]patternNodes: Set[IdName] = [friend,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),]patternNodes: Set[IdName] = [friend,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = []
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r2),IdName(r1),]patternNodes: Set[IdName] = [friend_of_a_friend,friend,user,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+
+############################### BEGIN ############################### 
+addPredicates
+patternRelationships: Set[PatternRelationship] = [IdName(r1),IdName(r2),]patternNodes: Set[IdName] = [user,friend,friend_of_a_friend,]
+argumentIds: Set[IdName] = []
+selections: Set[IdName] = [dependency: Set[IdName] = [user,]
+dependency: Set[IdName] = [user,]
+]
+

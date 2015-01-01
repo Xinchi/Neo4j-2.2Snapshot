@@ -32,9 +32,9 @@ import org.neo4j.cypher.internal.helpers.Converge.iterateUntilConverged
 object cartesianProduct extends CandidateGenerator[PlanTable] {
   def apply(planTable: PlanTable, ignored: QueryGraph)(implicit context: LogicalPlanningContext): CandidateList = {
     // Logger created by Max
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-    fbw.println(""+getClass() + "[apply]")
-    fbw.close()
+//    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+//    fbw.println(""+getClass() + "[apply]")
+//    fbw.close()
     val usablePlans = iterateUntilConverged { usablePlans: Set[LogicalPlan] =>
       val cartesianProducts = for (planA <- usablePlans; planB <- usablePlans if planA != planB) yield planCartesianProduct(planA, planB)
       if (cartesianProducts.isEmpty) {

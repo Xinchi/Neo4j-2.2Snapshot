@@ -31,9 +31,9 @@ class KeyTokenResolver extends PlanBuilder {
   def canWorkWith(plan: ExecutionPlanInProgress, ctx: PlanContext)(implicit pipeMonitor: PipeMonitor) = {
 
     // Logger created by Max
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-    fbw.println(""+getClass())
-    fbw.close()
+//    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+//    fbw.println(""+getClass())
+//    fbw.close()
 
 
 
@@ -47,9 +47,9 @@ class KeyTokenResolver extends PlanBuilder {
 
   def apply(plan: ExecutionPlanInProgress, ctx: PlanContext)(implicit pipeMonitor: PipeMonitor) = {
     // Logger created by Max
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-    fbw.println(""+getClass())
-    fbw.close()
+//    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
+//    fbw.println(""+getClass())
+//    fbw.close()
 
     val rewrittenQuery: PartiallySolvedQuery = plan.query.rewrite(resolveExpressions(_, ctx))
     plan.copy(query = rewrittenQuery)
