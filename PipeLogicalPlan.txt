@@ -1,0 +1,551 @@
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,r1,  UNNAMED46,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [r2,r1,  UNNAMED46,user,friend_of_a_friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [r2,r1,  UNNAMED46,user,friend_of_a_friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [friend_of_a_friend,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,r1,friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [r2,r1,friend,user,friend_of_a_friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [friend_of_a_friend,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,r1,friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [r2,r1,friend,user,friend_of_a_friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [r2,r1,friend,user,friend_of_a_friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [friend_of_a_friend,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [p,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,r1,  UNNAMED46,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [r2,r1,  UNNAMED46,user,friend_of_a_friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [r2,r1,  UNNAMED46,user,friend_of_a_friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [friend_of_a_friend,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,r1,friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [r2,r1,friend,user,friend_of_a_friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [friend_of_a_friend,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.execution.PipeExecutionPlanBuilder
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [user,r1,friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [r2,r1,friend,user,friend_of_a_friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [r2,r1,friend,user,friend_of_a_friend,]
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection--------- NODE ----------
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+availableSymbols = [friend_of_a_friend,]
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan

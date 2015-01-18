@@ -20,7 +20,6 @@
 package org.neo4j.cypher.internal.compiler.v2_2.planner
 
 import java.io.{FileWriter, BufferedWriter, PrintWriter}
-
 import org.neo4j.cypher.internal.compiler.v2_2.ast._
 import org.neo4j.cypher.internal.compiler.v2_2.ast.convert.plannerQuery.ExpressionConverters._
 import org.neo4j.cypher.internal.compiler.v2_2.perty._
@@ -35,40 +34,40 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
                       optionalMatches: Seq[QueryGraph] = Seq.empty,
                       hints: Set[Hint] = Set.empty,
                       shortestPathPatterns: Set[ShortestPathPattern] = Set.empty)
-  extends PageDocFormatting { // with ToPrettyString[QueryGraph] {
+  extends PageDocFormatting{ // with ToPrettyString[QueryGraph] {
 
 //  def toDefaultPrettyString(formatter: DocFormatter) =
-//    toPrettyString(formatter)(InternalDocHandler.docGen)
+//    toPrettySt   ring(formatter)(InternalDocHandler.docGen)
 
   def log(msg:String) = {
     // Logger created by Max
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("x.txt", true)));
-    fbw.println("############################### BEGIN ############################### ")
-    fbw.println(msg)
-    fbw.println(toString())
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("QueryGraph.txt", true)));
+    fbw.println("############################### "+msg+" ############################### ")
+    fbw.println(this.toString())
     fbw.close()
   }
 
   override def toString(): String = {
     val sb = new StringBuilder
     // patternRelationships
-    sb.append("patternRelationships: Set[PatternRelationship] = [")
+    sb.append("patternRelationships = [")
     val it =  patternRelationships.iterator
     while(it.hasNext) {
       val patternRelationship = it.next()
-      sb.append(patternRelationship.name+",")
+      sb.append(patternRelationship.name+ " " + patternRelationship.nodes+" "+ patternRelationship.dir + "" + patternRelationship.types + " " +patternRelationship.length +",")
     }
-    sb.append("]")
+    sb.append("]\n")
    // patternNodes
-    sb.append("patternNodes: Set[IdName] = [")
+    sb.append("patternNodes = [")
     val it2 = patternNodes.iterator
       while(it2.hasNext) {
         val patternNode = it2.next()
         sb.append(patternNode.name+",")
       }
     sb.append("]\n")
+
     // argumentIds
-    sb.append("argumentIds: Set[IdName] = [")
+    sb.append("argumentIds = [")
     val it3 = argumentIds.iterator
     while(it3.hasNext) {
       val argumentId = it3.next()
@@ -77,12 +76,12 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
     sb.append("]\n")
 
     // argumentIds
-    sb.append("selections: Set[IdName] = [")
+    sb.append("selections = [")
     val it4 = selections.predicates.iterator
     while(it4.hasNext) {
       val predicate = it4.next()
       val it5 = predicate.dependencies.iterator
-      sb.append("dependency: Set[IdName] = [")
+      sb.append("dependency = [")
       while(it5.hasNext) {
         val dependency = it5.next()
         sb.append(dependency.name+",")
@@ -91,57 +90,108 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
     }
     sb.append("]\n")
 
+    // optionalMatches
+    sb.append("optionalMatches = [")
+    val it6 = argumentIds.iterator
+    while(it6.hasNext) {
+      val optionalMatch = it6.next()
+      sb.append(optionalMatch.toString+",")
+    }
+    sb.append("]\n")
+
+    sb.append("hints size = "+hints.size+"\n")
+    sb.append("shortestPathPatterns size = "+shortestPathPatterns.size+"\n")
     return sb.toString()
   }
 
-  def addPatternNodes(nodes: IdName*): QueryGraph = copy(patternNodes = patternNodes ++ nodes)
+  def addPatternNodes(nodes: IdName*): QueryGraph =  {
+    val queryGraph = copy(patternNodes = patternNodes ++ nodes)
+    queryGraph.log("addPatternNodes")
+    return queryGraph
+  }
 
-  def addPatternRel(rel: PatternRelationship): QueryGraph =
-    copy(
+  def addPatternRel(rel: PatternRelationship): QueryGraph = {
+    val queryGraph = copy(
       patternNodes = patternNodes + rel.nodes._1 + rel.nodes._2,
       patternRelationships = patternRelationships + rel
     )
+    queryGraph.log("addPatternRel")
+    return queryGraph
+  }
+
 
   def addPatternRels(rels: Seq[PatternRelationship]) =
     rels.foldLeft[QueryGraph](this)((qg, rel) => qg.addPatternRel(rel))
 
   def addShortestPath(shortestPath: ShortestPathPattern): QueryGraph = {
-    log("addShortestPath")
     val rel = shortestPath.rel
-    copy (
+    val queryGraph = copy (
       patternNodes = patternNodes + rel.nodes._1 + rel.nodes._2,
       shortestPathPatterns = shortestPathPatterns + shortestPath
     )
+    queryGraph.log("addShortestPath")
+    return queryGraph
   }
 
-  def addShortestPaths(shortestPaths: ShortestPathPattern*): QueryGraph = shortestPaths.foldLeft(this)((qg, p) => qg.addShortestPath(p))
-  def addArgumentId(newIds: Seq[IdName]): QueryGraph = copy(argumentIds = argumentIds ++ newIds)
-  def addSelections(selections: Selections): QueryGraph =
-    copy(selections = Selections(selections.predicates ++ this.selections.predicates))
+  def addShortestPaths(shortestPaths: ShortestPathPattern*): QueryGraph = {
+    val queryGraph = shortestPaths.foldLeft(this)((qg, p) => qg.addShortestPath(p))
+    queryGraph.log("addShortestPaths")
+    return queryGraph
+  }
+  def addArgumentId(newIds: Seq[IdName]): QueryGraph = {
+    val queryGraph = copy(argumentIds = argumentIds ++ newIds)
+    queryGraph.log("addArgumentId")
+    return queryGraph
+  }
+  def addSelections(selections: Selections): QueryGraph = {
+    val queryGraph = copy(selections = Selections(selections.predicates ++ this.selections.predicates))
+    queryGraph.log("addSelections")
+    return queryGraph
+  }
 
   def addPredicates(predicates: Expression*): QueryGraph = {
-    log("addPredicates")
     val newSelections = Selections(predicates.flatMap(_.asPredicates).toSet)
-    copy(selections = selections ++ newSelections)
+    val queryGraph = copy(selections = selections ++ newSelections)
+    queryGraph.log("addPredicates")
+    return queryGraph
   }
 
-  def addHints(addedHints: GenTraversableOnce[Hint]): QueryGraph = copy(hints = hints ++ addedHints)
+  def addHints(addedHints: GenTraversableOnce[Hint]): QueryGraph = {
+    val queryGraph = copy(hints = hints ++ addedHints)
+    queryGraph.log("addHints")
+    return queryGraph
+  }
 
-  def withoutArguments(): QueryGraph = withArgumentIds(Set.empty)
-  def withArgumentIds(newArgumentIds: Set[IdName]): QueryGraph =
-    copy(argumentIds = newArgumentIds)
+  def withoutArguments(): QueryGraph = {
+    val queryGraph = withArgumentIds(Set.empty)
+    queryGraph.log("withoutArguments")
+    return queryGraph
+  }
+  def withArgumentIds(newArgumentIds: Set[IdName]): QueryGraph = {
+    val queryGraph = copy(argumentIds = newArgumentIds)
+    queryGraph.log("withArgumentIds")
+    return queryGraph
+  }
+
 
   def withAddedOptionalMatch(optionalMatch: QueryGraph): QueryGraph = {
-    log("withAddedOptionalMatch")
     val argumentIds = allCoveredIds intersect optionalMatch.allCoveredIds
-    copy(optionalMatches = optionalMatches :+ optionalMatch.addArgumentId(argumentIds.toSeq))
+    val queryGraph = copy(optionalMatches = optionalMatches :+ optionalMatch.addArgumentId(argumentIds.toSeq))
+    queryGraph.log("withAddedOptionalMatch")
+    return queryGraph
   }
 
   def withOptionalMatches(optionalMatches: Seq[QueryGraph]): QueryGraph = {
-    copy(optionalMatches = optionalMatches)
+    val queryGraph = copy(optionalMatches = optionalMatches)
+    queryGraph.log("withOptionalMatches")
+    return queryGraph
   }
 
-  def withSelections(selections: Selections): QueryGraph = copy(selections = selections)
+  def withSelections(selections: Selections): QueryGraph = {
+    val queryGraph = copy(selections = selections)
+    queryGraph.log("withSelections")
+    return queryGraph
+  }
 
   def knownLabelsOnNode(node: IdName): Seq[LabelName] =
     selections
@@ -155,7 +205,6 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
     patternNodes ++ optionalMatches.flatMap(_.allPatternNodes)
 
   def coveredIds: Set[IdName] = {
-    log("coveredIds")
     val patternIds = QueryGraph.coveredIdsForPatterns(patternNodes, patternRelationships)
     patternIds ++ argumentIds ++ selections.predicates.flatMap(_.dependencies)
   }
@@ -171,8 +220,8 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
 
   def numHints = allHints.size
 
-  def ++(other: QueryGraph): QueryGraph =
-    QueryGraph(
+  def ++(other: QueryGraph): QueryGraph = {
+    val queryGraph = QueryGraph(
       selections = selections ++ other.selections,
       patternNodes = patternNodes ++ other.patternNodes,
       patternRelationships = patternRelationships ++ other.patternRelationships,
@@ -181,6 +230,10 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
       hints = hints ++ other.hints,
       shortestPathPatterns = shortestPathPatterns ++ other.shortestPathPatterns
     )
+    queryGraph.log("++(other: QueryGraph)")
+    return queryGraph
+  }
+
 
   def isCoveredBy(other: QueryGraph): Boolean = {
     patternNodes.subsetOf(other.patternNodes) &&
@@ -213,17 +266,14 @@ object QueryGraph {
   val empty = QueryGraph()
 
   def coveredIdsForPatterns(patternNodeIds: Set[IdName], patternRels: Set[PatternRelationship]) = {
-    empty.log("coveredIdsForPatterns")
     val patternRelIds = patternRels.flatMap(_.coveredIds)
     patternNodeIds ++ patternRelIds
   }
 
   implicit object byCoveredIds extends Ordering[QueryGraph] {
-    empty.log("byCoveredIds constructor")
     import scala.math.Ordering.Implicits
 
     def compare(x: QueryGraph, y: QueryGraph): Int = {
-      empty.log("compare")
       val xs = x.coveredIds.toSeq.sorted(IdName.byName)
       val ys = y.coveredIds.toSeq.sorted(IdName.byName)
       Implicits.seqDerivedOrdering[Seq, IdName](IdName.byName).compare(xs, ys)

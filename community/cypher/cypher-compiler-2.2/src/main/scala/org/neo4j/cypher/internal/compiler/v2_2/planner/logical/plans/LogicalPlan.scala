@@ -19,6 +19,7 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
 import java.lang.reflect.Method
 
 import org.neo4j.cypher.internal.compiler.v2_2.Foldable._
@@ -53,12 +54,51 @@ abstract class LogicalPlan
   def solved: PlannerQuery
   def availableSymbols: Set[IdName]
 
+  log(this.getClass.getName)
+
+  def log(msg:String) = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("LogicalPlan.txt", true)));
+//    fbw.println("############################### "+msg+" ############################### ")
+    fbw.println(msg)
+    val sb = new StringBuilder
+    traverse(self, sb)
+    fbw.println(sb.toString())
+    fbw.close()
+  }
+
   def leafs: Seq[LogicalPlan] = this.treeFold(Seq.empty[LogicalPlan]) {
     case plan: LogicalPlan
       if plan.lhs.isEmpty && plan.rhs.isEmpty => (acc, r) => r(acc :+ plan)
   }
 
-  override def toString = s"Implementing Serializable"
+  def traverse(head: LogicalPlan, sb:StringBuilder) : Unit = {
+    if(head == None || head == null) {
+      return
+    }
+    if(head.lhs != null && !head.lhs.isEmpty)
+      traverse(head.lhs.get, sb)
+    sb.append(head.toString)
+    if(head.lhs != null && !head.rhs.isEmpty)
+      traverse(head.rhs.get, sb)
+  }
+  override def toString = {
+    val sb = new StringBuilder
+    sb.append("--------- NODE ----------\n")
+    // solved
+    sb.append(solved.toString)
+    //availableSymbols
+    if(availableSymbols != null) {
+      sb.append("availableSymbols = [")
+      val it = availableSymbols.iterator
+      while(it.hasNext) {
+        val idName = it.next()
+        sb.append(idName.name+",")
+      }
+      sb.append("]\n")
+    }
+    sb.toString()
+  }
 
   def updateSolved(newSolved: PlannerQuery): LogicalPlan = {
     val arguments = this.children.toList :+ newSolved

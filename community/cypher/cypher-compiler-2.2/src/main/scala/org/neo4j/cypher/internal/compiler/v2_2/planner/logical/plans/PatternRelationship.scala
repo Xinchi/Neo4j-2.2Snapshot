@@ -54,7 +54,7 @@ object PatternRelationship {
 final case class ShortestPathPattern(name: Option[IdName], rel: PatternRelationship, single: Boolean)(val expr: ast.ShortestPaths)
   extends PageDocFormatting { // with ToPrettyString[ShortestPathPattern] {
 
-//  def toDefaultPrettyString(formatter: DocFormatter) =
+//  def toDefaultPrettyString(formatter: Do cFormatter) =
 //    toPrettyString(formatter)(InternalDocHandler.docGen)
 
   def isFindableFrom(symbols: Set[IdName]) = symbols.contains(rel.left) && symbols.contains(rel.right)

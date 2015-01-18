@@ -19,6 +19,7 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.execution
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
 import java.util.Date
 
 import org.neo4j.cypher.internal.compiler.v2_2._
@@ -52,6 +53,42 @@ class PipeExecutionPlanBuilder(clock: Clock, monitors: Monitors) {
 
   def build(plan: LogicalPlan)(implicit context: PipeExecutionBuilderContext, planContext: PlanContext): PipeInfo = {
     val updating = false
+
+//    log(this.getClass.getName)
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("PipeLogicalPlan.txt", true)));
+    prettyTree(plan, s"", fbw)
+    fbw.close()
+    def log(msg:String) = {
+      // Logger created by Max
+      val fbw = new PrintWriter(new BufferedWriter(new FileWriter("PipeLogicalPlan.txt", true)));
+      //    fbw.println("############################### "+msg+" ############################### ")
+      fbw.println(msg)
+      val sb = new StringBuilder
+      traverse(plan, sb)
+      fbw.println(sb.toString())
+      fbw.close()
+    }
+    def prettyTree(head: LogicalPlan, prefix: String, fbw: PrintWriter): Unit = {
+      if(head == null || head == None) {
+        return
+      }
+      fbw.println(prefix + head.getClass.getName)
+      if(head.lhs != null && !head.lhs.isEmpty)
+        prettyTree(head.lhs.get, prefix+"-", fbw)
+      if(head.rhs != null && !head.rhs.isEmpty)
+        prettyTree(head.rhs.get, prefix+"-", fbw)
+    }
+    def traverse(head: LogicalPlan, sb:StringBuilder) : Unit = {
+      if(head == None || head == null) {
+        return
+      }
+      if(head.lhs != null && !head.lhs.isEmpty)
+        traverse(head.lhs.get, sb)
+      sb.append(head.getClass.getName)
+      sb.append(head.toString)
+      if(head.lhs != null && !head.rhs.isEmpty)
+        traverse(head.rhs.get, sb)
+    }
 
     def buildPipe(plan: LogicalPlan, input: QueryGraphCardinalityInput): Pipe = {
       implicit val monitor = monitors.newMonitor[PipeMonitor]()

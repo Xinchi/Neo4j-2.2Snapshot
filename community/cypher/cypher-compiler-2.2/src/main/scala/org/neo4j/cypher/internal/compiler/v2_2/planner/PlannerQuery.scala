@@ -31,10 +31,13 @@ case class UnionQuery(queries: Seq[PlannerQuery], distinct: Boolean)
 case class PlannerQuery(graph: QueryGraph = QueryGraph.empty,
                         horizon: QueryHorizon = QueryProjection.empty,
                         tail: Option[PlannerQuery] = None)
-  extends PageDocFormatting { // with ToPrettyString[PlannerQuery] {
+  extends PageDocFormatting
+  with Serializable{ // with ToPrettyString[PlannerQuery] {
 
 //  def toDefaultPrettyString(formatter: DocFormatter) =
 //    toPrettyString(formatter)(InternalDocHandler.docGen)
+
+  override def toString = graph.toString()
 
   def lastQueryGraph: QueryGraph = tail.map(_.lastQueryGraph).getOrElse(graph)
 
