@@ -73654,3 +73654,4767 @@ optionalMatches = []
 hints size = 0
 shortestPathPatterns size = 0
 
+############################### addSelections ############################### 
+patternRelationships = []
+patternNodes = []
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addShortestPaths ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addSelections ############################### 
+patternRelationships = []
+patternNodes = []
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addShortestPaths ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addArgumentId ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addSelections ############################### 
+patternRelationships = []
+patternNodes = []
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addShortestPaths ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addArgumentId ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addArgumentId ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [p,]
+argumentIds = []
+selections = [dependency = [p,]
+dependency = [p,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addSelections ############################### 
+patternRelationships = []
+patternNodes = []
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addShortestPaths ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addArgumentId ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [  UNNAMED46,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [  UNNAMED46,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [  UNNAMED46,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [  UNNAMED46,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [  UNNAMED46,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,  UNNAMED46,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(  UNNAMED46)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(  UNNAMED46),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,  UNNAMED46,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addSelections ############################### 
+patternRelationships = []
+patternNodes = []
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addShortestPaths ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addSelections ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addShortestPaths ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addArgumentId ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addSelections ############################### 
+patternRelationships = []
+patternNodes = []
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addShortestPaths ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternNodes ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addHints ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addArgumentId ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPatternRel ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = [dependency = [r1,r2,]
+dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### addPredicates ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [friend_of_a_friend,friend,user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [friend_of_a_friend,]
+argumentIds = []
+selections = []
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = []
+patternNodes = [user,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### withOptionalMatches ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
+############################### ++(other: QueryGraph) ############################### 
+patternRelationships = [IdName(r1) (IdName(user),IdName(friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,IdName(r2) (IdName(friend),IdName(friend_of_a_friend)) BOTHList(RelTypeName(FRIEND)) SimplePatternLength,]
+patternNodes = [user,friend,friend_of_a_friend,]
+argumentIds = []
+selections = [dependency = [user,]
+dependency = [user,]
+dependency = [r1,r2,]
+]
+optionalMatches = []
+hints size = 0
+shortestPathPatterns size = 0
+
