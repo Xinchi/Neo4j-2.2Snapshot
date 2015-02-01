@@ -10,7 +10,8 @@ cd /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +
 bin/neo4j start;
 bin/neo4j stop;
 rm -rf data/graph.db/;
-cp -r /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/neo4j-community-2.2-SNAPSHOT12_16/data/graph.db /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H)/data/;
+#cp -r /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/neo4j-community-2.2-SNAPSHOT12_16/data/graph.db /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H)/data/;
+cp -r /Users/Max1/Dropbox/UCSD/MSProject/neo4j/graph.db /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H)/data/;
 cp /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/neo4j-community-2.2-SNAPSHOT12_16/conf/neo4j.properties /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H)/conf/;
 cp /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/neo4j-community-2.2-SNAPSHOT12_16/conf/neo4j-wrapper.conf /Users/Max1/Dropbox/UCSD/MSProject/neo4j/packaging/standalone/target/$(date +%Y%m%d-%H)/conf/;
 bin/neo4j start;
