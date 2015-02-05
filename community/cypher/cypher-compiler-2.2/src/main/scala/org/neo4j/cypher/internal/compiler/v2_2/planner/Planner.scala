@@ -19,6 +19,8 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2._
 import org.neo4j.cypher.internal.compiler.v2_2.ast._
 import org.neo4j.cypher.internal.compiler.v2_2.ast.convert.plannerQuery.StatementConverters._
@@ -48,6 +50,7 @@ case class Planner(monitors: Monitors,
   def producePlan(inputQuery: PreparedQuery, planContext: PlanContext): PipeInfo = {
     Planner.rewriteStatement(inputQuery.statement, inputQuery.scopeTree) match {
       case ast: Query =>
+        // Added by Max: monitor keeps updating the curret stage of planning
         monitor.startedPlanning(inputQuery.queryText)
         val (logicalPlan, pipeBuildContext) = produceLogicalPlan(ast, inputQuery.semanticTable)(planContext)
         monitor.foundPlan(inputQuery.queryText, logicalPlan)
@@ -65,11 +68,21 @@ case class Planner(monitors: Monitors,
     val unionQuery = ast.asUnionQuery
 
     val metrics = metricsFactory.newMetrics(planContext.statistics, semanticTable)
+    log(planContext.statistics.toString)
     val context = LogicalPlanningContext(planContext, metrics, semanticTable, queryGraphSolver, QueryGraphCardinalityInput.empty)
     val plan = strategy.plan(unionQuery)(context)
     val pipeBuildContext                            = PipeExecutionBuilderContext(metrics.cardinality, semanticTable)
 
     (plan, pipeBuildContext)
+  }
+
+  def log(msg:String) = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("Planner.txt", true)));
+    fbw.println("-------------------------------"+this.getClass+"---------------------------------\n")
+    fbw.println(msg)
+    fbw.println("----------------------------------------------------------------\n")
+    fbw.close()
   }
 }
 

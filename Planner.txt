@@ -1,0 +1,60 @@
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@e736aa3,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@4602cc92,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@24f0a437,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@3cfc4193,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@6264e56c,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@47ddc898,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@eafadb6,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@5848c63a,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@36dfcea4,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@4a5d5fd6,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@f9a646b,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@16471dea,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+

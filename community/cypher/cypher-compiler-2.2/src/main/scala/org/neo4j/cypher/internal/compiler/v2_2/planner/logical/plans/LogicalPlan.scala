@@ -82,23 +82,23 @@ abstract class LogicalPlan
     if(head.lhs != null && !head.rhs.isEmpty)
       traverse(head.rhs.get, sb)
   }
-  override def toString = {
-    val sb = new StringBuilder
-    sb.append("--------- NODE ----------\n")
-    // solved
-    sb.append(solved.toString)
-    //availableSymbols
-    if(availableSymbols != null) {
-      sb.append("availableSymbols = [")
-      val it = availableSymbols.iterator
-      while(it.hasNext) {
-        val idName = it.next()
-        sb.append(idName.name+",")
-      }
-      sb.append("]\n")
-    }
-    sb.toString()
-  }
+//  override def toString = {
+//    val sb = new StringBuilder
+//    sb.append("--------- NODE ----------\n")
+//    // solved
+//    sb.append(solved.toString)
+//    //availableSymbols
+//    if(availableSymbols != null) {
+//      sb.append("availableSymbols = [")
+//      val it = availableSymbols.iterator
+//      while(it.hasNext) {
+//        val idName = it.next()
+//        sb.append(idName.name+",")
+//      }
+//      sb.append("]\n")
+//    }
+//    sb.toString()
+//  }
 
   def updateSolved(newSolved: PlannerQuery): LogicalPlan = {
     val arguments = this.children.toList :+ newSolved

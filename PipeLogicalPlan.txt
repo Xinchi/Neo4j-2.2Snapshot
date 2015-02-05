@@ -572,3 +572,697 @@ org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
 ---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
 ----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
 -----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(p),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(p),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Left(Person),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Left(Person),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Right(LabelId(1)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Right(LabelId(1)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(p),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(p),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Left(Person),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Left(Person),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Right(LabelId(1)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Right(LabelId(1)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(p),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(p),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Left(Person),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Left(Person),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Right(LabelId(1)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Right(LabelId(1)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(p),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(p),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Left(Person),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Left(Person),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Right(LabelId(1)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Right(LabelId(1)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(p),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(p),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Left(Person),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Left(Person),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Right(LabelId(1)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Right(LabelId(1)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(p),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(p),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Left(Person),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Left(Person),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Right(LabelId(1)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Right(LabelId(1)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(p),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(p),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Left(Person),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Left(Person),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Right(LabelId(1)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Right(LabelId(1)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(p),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(p),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Left(Person),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Left(Person),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(p),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(p),Right(LabelId(1)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(p),Right(LabelId(1)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector()),IdName(  UNNAMED46),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(  UNNAMED46),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())),Map(friend_of_a_friend -> Identifier(friend_of_a_friend)))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r1),Identifier(r2))),Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector()),IdName(friend),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend_of_a_friend),IdName(r2),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())),IdName(user),BOTH,BOTH,List(RelTypeName(FRIEND)),IdName(friend),IdName(r1),SimplePatternLength,Vector())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(Equals(Property(Identifier(user),PropertyKeyName(name)),Parameter(  AUTOSTRING0))),NodeByLabelScan(IdName(user),Right(LabelId(0)),Set()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(user),Right(LabelId(0)),Set())
+------------------------ END OF DETAILS ------------------------

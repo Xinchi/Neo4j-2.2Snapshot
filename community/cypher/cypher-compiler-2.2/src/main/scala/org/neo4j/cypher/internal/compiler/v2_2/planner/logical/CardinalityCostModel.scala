@@ -19,6 +19,8 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.logical
 
+import java.io.{PrintWriter, BufferedWriter, FileWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2.ast.Collection
 import org.neo4j.cypher.internal.compiler.v2_2.commands.ManyQueryExpression
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.Metrics._
@@ -64,27 +66,50 @@ case class CardinalityCostModel(cardinality: CardinalityModel) extends CostModel
     case _                  => plan.lhs.map(p => cardinality(p, input)).getOrElse(cardinality(plan, input))
   }
 
-  def apply(plan: LogicalPlan, input: QueryGraphCardinalityInput): Cost = plan match {
-    case CartesianProduct(lhs, rhs) =>
-      apply(lhs, input) + cardinality(lhs, input) * apply(rhs, input)
+  def log(msg:String) = {
+    // Logger created by Max
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("QueriedGraphStatistics.txt", true)));
+    fbw.println("-------------------------------"+this.getClass+"---------------------------------\n")
+    fbw.println(msg)
+    fbw.println("----------------------------------------------------------------\n")
+    fbw.close()
+  }
 
-    case Apply(lhs, rhs) =>
-      val newInput = input.withCardinality(cardinality(lhs, input))
+  def apply(plan: LogicalPlan, input: QueryGraphCardinalityInput): Cost = {
+    val sb = new StringBuilder
+    sb.append(plan.getClass.getName+"\n")
+    plan match {
+      case CartesianProduct(lhs, rhs) =>
+        val cost = apply(lhs, input) + cardinality(lhs, input) * apply(rhs, input)
+        sb.append(cost.toString)
+        log(sb.toString())
+        cost
 
-      val lCost = apply(lhs, input)
-      val rCost = apply(rhs, newInput)
-      lCost + rCost
+      case Apply(lhs, rhs) =>
+        val newInput = input.withCardinality(cardinality(lhs, input))
+        val lCost = apply(lhs, input)
+        val rCost = apply(rhs, newInput)
+        val cost = lCost + rCost
+        sb.append(cost.toString)
+        log(sb.toString())
+        cost
 
-    case OuterHashJoin(_, lhs, rhs) =>
-      val lCost = apply(lhs, input)
-      val rCost = apply(rhs, input)
-      lCost + rCost
+      case OuterHashJoin(_, lhs, rhs) =>
+        val lCost = apply(lhs, input)
+        val rCost = apply(rhs, input)
+        val cost = lCost + rCost
+        sb.append(cost.toString)
+        log(sb.toString())
+        cost
 
-    case _ =>
-      val lhsCost = plan.lhs.map(p => apply(p, input)).getOrElse(Cost(0))
-      val rhsCost = plan.rhs.map(p => apply(p, input)).getOrElse(Cost(0))
-      val costForThisPlan = cardinalityForPlan(plan, input) * costPerRow(plan)
-      val totalCost = costForThisPlan + lhsCost + rhsCost
-      totalCost
+      case _ =>
+        val lhsCost = plan.lhs.map(p => apply(p, input)).getOrElse(Cost(0))
+        val rhsCost = plan.rhs.map(p => apply(p, input)).getOrElse(Cost(0))
+        val costForThisPlan = cardinalityForPlan(plan, input) * costPerRow(plan)
+        val totalCost = costForThisPlan + lhsCost + rhsCost
+        sb.append(totalCost.toString)
+        log(sb.toString())
+        totalCost
+    }
   }
 }
