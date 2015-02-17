@@ -37,6 +37,7 @@ class StatisticsBackedCardinalityModel(queryGraphCardinalityModel: QueryGraphCar
         val horizonCardinality = calculateCardinalityForQueryHorizon(graphCardinality, horizon)
         QueryGraphCardinalityInput(newLabels, horizonCardinality)
     }
+
     output.inboundCardinality
   }
 

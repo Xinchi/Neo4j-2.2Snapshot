@@ -62,8 +62,20 @@ case class CardinalityCostModel(cardinality: CardinalityModel) extends CostModel
   }
 
   private def cardinalityForPlan(plan: LogicalPlan, input: QueryGraphCardinalityInput): Cardinality = plan match {
-    case Selection(_, left) => cardinality(left, input)
-    case _                  => plan.lhs.map(p => cardinality(p, input)).getOrElse(cardinality(plan, input))
+    case Selection(_, left) => {
+      val result = cardinality(left, input)
+      val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CardinalityCostModel.txt", true)));
+      fbw.println("Cardinality in non-selection case = "+result.toString)
+      fbw.close()
+      result
+    }
+    case _                  => {
+      val result = plan.lhs.map(p => cardinality(p, input)).getOrElse(cardinality(plan, input))
+      val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CardinalityCostModel.txt", true)));
+      fbw.println("Cardinality in non-selection case = "+result.toString)
+      fbw.close()
+      result
+    }
   }
 
   def log(msg:String) = {
@@ -106,7 +118,13 @@ case class CardinalityCostModel(cardinality: CardinalityModel) extends CostModel
         val lhsCost = plan.lhs.map(p => apply(p, input)).getOrElse(Cost(0))
         val rhsCost = plan.rhs.map(p => apply(p, input)).getOrElse(Cost(0))
         val costForThisPlan = cardinalityForPlan(plan, input) * costPerRow(plan)
+        // Log created by Max
+        val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CardinalityCostModel.txt", true)));
+        fbw.println(plan.getClass.getName)
+        fbw.println("costForThisPlan = "+costForThisPlan.toString)
         val totalCost = costForThisPlan + lhsCost + rhsCost
+        fbw.println("totalCost = "+totalCost)
+        fbw.close()
         sb.append(totalCost.toString)
         log(sb.toString())
         totalCost

@@ -103,6 +103,7 @@
 
   </dependencies>
 
+<!--
     <build>
         <plugins>
             <plugin>
@@ -156,7 +157,7 @@
           </plugins>
         </pluginManagement>
     </build>
-
+-->
     <profiles>
     <profile>
       <id>neo-docs-build</id>

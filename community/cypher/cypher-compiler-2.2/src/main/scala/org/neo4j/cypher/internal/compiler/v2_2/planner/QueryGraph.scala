@@ -47,63 +47,6 @@ case class QueryGraph(patternRelationships: Set[PatternRelationship] = Set.empty
     fbw.close()
   }
 
-  override def toString(): String = {
-    val sb = new StringBuilder
-    // patternRelationships
-    sb.append("patternRelationships = [")
-    val it =  patternRelationships.iterator
-    while(it.hasNext) {
-      val patternRelationship = it.next()
-      sb.append(patternRelationship.name+ " " + patternRelationship.nodes+" "+ patternRelationship.dir + "" + patternRelationship.types + " " +patternRelationship.length +",")
-    }
-    sb.append("]\n")
-   // patternNodes
-    sb.append("patternNodes = [")
-    val it2 = patternNodes.iterator
-      while(it2.hasNext) {
-        val patternNode = it2.next()
-        sb.append(patternNode.name+",")
-      }
-    sb.append("]\n")
-
-    // argumentIds
-    sb.append("argumentIds = [")
-    val it3 = argumentIds.iterator
-    while(it3.hasNext) {
-      val argumentId = it3.next()
-      sb.append(argumentId.name+",")
-    }
-    sb.append("]\n")
-
-    // argumentIds
-    sb.append("selections = [")
-    val it4 = selections.predicates.iterator
-    while(it4.hasNext) {
-      val predicate = it4.next()
-      val it5 = predicate.dependencies.iterator
-      sb.append("dependency = [")
-      while(it5.hasNext) {
-        val dependency = it5.next()
-        sb.append(dependency.name+",")
-      }
-      sb.append("]\n")
-    }
-    sb.append("]\n")
-
-    // optionalMatches
-    sb.append("optionalMatches = [")
-    val it6 = argumentIds.iterator
-    while(it6.hasNext) {
-      val optionalMatch = it6.next()
-      sb.append(optionalMatch.toString+",")
-    }
-    sb.append("]\n")
-
-    sb.append("hints size = "+hints.size+"\n")
-    sb.append("shortestPathPatterns size = "+shortestPathPatterns.size+"\n")
-    return sb.toString()
-  }
-
   def addPatternNodes(nodes: IdName*): QueryGraph =  {
     val queryGraph = copy(patternNodes = patternNodes ++ nodes)
     queryGraph.log("addPatternNodes")

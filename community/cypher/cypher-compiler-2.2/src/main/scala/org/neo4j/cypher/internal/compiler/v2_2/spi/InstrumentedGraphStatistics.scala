@@ -19,11 +19,12 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.spi
 
+import scala.io.Source
+import java.io.{BufferedWriter, FileWriter, PrintWriter}
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.{Cardinality, Selectivity}
 import org.neo4j.cypher.internal.compiler.v2_2.{LabelId, PropertyKeyId, RelTypeId}
 
 import scala.collection.mutable
-
 sealed trait StatisticsKey
 case class NodesWithLabelCardinality(labelId: Option[LabelId]) extends StatisticsKey
 case class CardinalityByLabelsAndRelationshipType(lhs: Option[LabelId], relType: Option[RelTypeId], rhs: Option[LabelId]) extends StatisticsKey
@@ -78,14 +79,95 @@ case class GraphStatisticsSnapshot(map: Map[StatisticsKey, Double] = Map.empty) 
 }
 
 case class InstrumentedGraphStatistics(inner: GraphStatistics, snapshot: MutableGraphStatisticsSnapshot) extends GraphStatistics {
-  def nodesWithLabelCardinality(labelId: Option[LabelId]): Cardinality =
-    snapshot.map.getOrElseUpdate(NodesWithLabelCardinality(labelId), inner.nodesWithLabelCardinality(labelId).amount)
+  val fbw = new PrintWriter(new BufferedWriter(new FileWriter("InstrumentedGraphStatistics.txt",true)))
+  fbw.println("-------------- Constructor ---------------")
+  fbw.println("inner = \n"+inner.toString)
+  fbw.println("snapshot = \n"+snapshot.toString+"\n")
+  fbw.println("------- Read File -------")
+  fbw.close()
+  val nodesWithLabelCardinalityInputDict = getStatsForCardinalityWithLabel(CardinalityInputType.NodesWithLabelCardinalityTypeInput)
+  val cardinalityByLabelAndRelationshipTypeInputDict = getStatsForCardinalityWithLabelAndRelationType()
 
-  def cardinalityByLabelsAndRelationshipType(fromLabel: Option[LabelId], relTypeId: Option[RelTypeId], toLabel: Option[LabelId]): Cardinality =
-    snapshot.map.getOrElseUpdate(
+  object CardinalityInputType extends Enumeration {
+    type CardinalityType = Value
+    val NodesWithLabelCardinalityTypeInput, CardinalityByLabelAndRelationshipTypeInput, IndexSelectivityInput = Value
+  }
+  import CardinalityInputType._
+
+  def getStatsForCardinalityWithLabel(t: CardinalityType):mutable.Map[Int, Double] = {
+    val res = mutable.Map[Int, Double]()
+    val filename = t match {
+      case NodesWithLabelCardinalityTypeInput => "/Users/Max1/Dropbox/UCSD/MSProject/neo4j/cardinalityInput/nodesWithLabelCardinality.txt"
+      case CardinalityByLabelAndRelationshipTypeInput => "/Users/Max1/Dropbox/UCSD/MSProject/neo4j/cardinalityInput/cardinalityByLabelAndRelationship.txt"
+      case _ => "None"
+    }
+
+    for (line <- Source.fromFile(filename).getLines()) {
+      val data = line.split(",")
+      //      res(data(0)) = data(1).toInt
+      res += data(0).toInt -> data(1).toDouble
+    }
+    res
+  }
+
+  def getStatsForCardinalityWithLabelAndRelationType(): mutable.Map[Int, mutable.Map[Int, mutable.Map[Int, Double]]] = {
+    val res = mutable.Map[Int, mutable.Map[Int, mutable.Map[Int, Double]]]()
+    val filename = "/Users/Max1/Dropbox/UCSD/MSProject/neo4j/cardinalityInput/cardinalityByLabelAndRelationship.txt"
+    for (line <- Source.fromFile(filename).getLines()) {
+      val data = line.split(",")
+      val fromLabelDict = res.getOrElseUpdate(data(0).toInt, mutable.Map[Int, mutable.Map[Int,Double]]())
+      val relationDict = fromLabelDict.getOrElseUpdate(data(1).toInt, mutable.Map[Int,Double]())
+      val toLabelDict = relationDict.getOrElseUpdate(data(2).toInt, data(3).toDouble)
+    }
+    res
+  }
+  def nodesWithLabelCardinality(labelId: Option[LabelId]): Cardinality = {
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("InstrumentedGraphStatistics.txt",true)))
+    fbw.println("-------------- nodesWithLabelCardinality ---------------")
+    fbw.println(nodesWithLabelCardinalityInputDict.toString())
+    fbw.println("inner = "+inner.toString+"\n")
+    fbw.println("snapshot = "+snapshot.toString+"\n")
+    fbw.println("labelId = "+labelId.toString+"\n")
+    // Empty Case
+    if(labelId.isEmpty) {
+      fbw.println("cardinality = "+Cardinality(nodesWithLabelCardinalityInputDict.get(-1).get)+"\n")
+      return Cardinality(nodesWithLabelCardinalityInputDict.get(-1).get)
+    }
+    if(nodesWithLabelCardinalityInputDict.get(labelId.get.id).isEmpty) {
+//      throw new Exception("The labelID is not defined!")
+      fbw.println("label input is not defined")
+      return Cardinality(2)
+    }
+    val res = Cardinality(nodesWithLabelCardinalityInputDict.get(labelId.get.id).get)
+//    val res = snapshot.map.getOrElseUpdate(NodesWithLabelCardinality(labelId), inner.nodesWithLabelCardinality(labelId).amount)
+    fbw.println("labelId = "+labelId.toString+"\n")
+    fbw.println("cardinality = "+res.toString+"\n")
+    fbw.close()
+    res
+  }
+
+
+  def cardinalityByLabelsAndRelationshipType(fromLabel: Option[LabelId], relTypeId: Option[RelTypeId], toLabel: Option[LabelId]): Cardinality = {
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("InstrumentedGraphStatistics.txt",true)))
+    fbw.println("-------------- cardinalityByLabelsAndRelationshipType ---------------\n")
+    fbw.println("dict = "+cardinalityByLabelAndRelationshipTypeInputDict.toString())
+    fbw.println("fromLabel = "+fromLabel.toString+"\n")
+    fbw.println("relTypeId = "+relTypeId.toString+"\n")
+    fbw.println("toLabel = "+toLabel.toString+"\n")
+    val res = snapshot.map.getOrElseUpdate(
       CardinalityByLabelsAndRelationshipType(fromLabel, relTypeId, toLabel),
       inner.cardinalityByLabelsAndRelationshipType(fromLabel, relTypeId, toLabel).amount
     )
+//    if(fromLabel == Some(LabelId(20))) {
+//      val res2 = Cardinality(1000)
+//      fbw.println("cardinality got or updated to = " + res2.toString+"\n")
+//      fbw.close()
+//      return res2
+//    }
+    fbw.println("cardinality got or updated to = " + res.toString+"\n")
+    fbw.close()
+    res
+  }
 
   def indexSelectivity(label: LabelId, property: PropertyKeyId): Option[Selectivity] = {
     val selectivity = inner.indexSelectivity(label, property)

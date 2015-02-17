@@ -19,6 +19,8 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.logical.cardinality.assumeIndependence
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2.ast.LabelName
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.Metrics.{QueryGraphCardinalityInput, QueryGraphCardinalityModel}
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.{VarPatternLength, SimplePatternLength, IdName}
@@ -33,17 +35,34 @@ case class AssumeIndependenceQueryGraphCardinalityModel(stats: GraphStatistics,
 
   private val expressionSelectivityEstimator = ExpressionSelectivityCalculator(stats, combiner)
   private val patternSelectivityEstimator = PatternSelectivityCalculator(stats, combiner)
-
+  log(expressionSelectivityEstimator.toString)
+  log(patternSelectivityEstimator.toString)
   /**
    * When there are optional matches, the cardinality is always the maximum of any matches that exist,
    * because no matches are limiting. So we need to calculate cardinality of all possible combinations
    * of matches, and then take the max.
    */
   def apply(queryGraph: QueryGraph, input: QueryGraphCardinalityInput): Cardinality = {
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("AssumeIndependenceQueryGraphCardinalityModel.txt", true)));
+    fbw.println("########## apply ##########")
     val combinations: Seq[QueryGraph] = findQueryGraphCombinations(queryGraph, semanticTable)
     val cardinalities = combinations.map(cardinalityForQueryGraph(_, input)(semanticTable))
-    cardinalities.max
+    fbw.println("combinations = \n"+combinations.toString())
+    fbw.println("cardinalities = \n"+cardinalities.toString())
+    val cardinalitiesMax = cardinalities.max
+    fbw.println("cardinalities.max = \n"+cardinalitiesMax.toString)
+    fbw.println("####################")
+    fbw.close()
+    return cardinalitiesMax
   }
+
+  def log(msg: String) = {
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("AssumeIndependenceQueryGraphCardinalityModel.txt", true)));
+    fbw.println(msg)
+    fbw.println("----------------------------------------------------------------\n")
+    fbw.close()
+  }
+
 
   private def findQueryGraphCombinations(queryGraph: QueryGraph, semanticTable: SemanticTable): Seq[QueryGraph] = {
     (0 to queryGraph.optionalMatches.length)

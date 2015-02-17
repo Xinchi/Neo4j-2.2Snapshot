@@ -19,6 +19,8 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.planner.logical.cardinality.assumeIndependence
 
+import java.io.{FileWriter, BufferedWriter, PrintWriter}
+
 import org.neo4j.cypher.internal.compiler.v2_2.ast.{LabelName, RelTypeName}
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans._
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.{Cardinality, Selectivity}
@@ -43,6 +45,7 @@ case class PatternSelectivityCalculator(stats: GraphStatistics, combiner: Select
 
   def apply(pattern: PatternRelationship, labels: Map[IdName, Set[LabelName]])
            (implicit semanticTable: SemanticTable, selections: Selections): Selectivity = {
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("PatternSelectivityCalculator.txt", true)))
     val allNodes = stats.nodesWithLabelCardinality(None)
     val lhs = pattern.nodes._1
     val rhs = pattern.nodes._2
@@ -51,7 +54,21 @@ case class PatternSelectivityCalculator(stats: GraphStatistics, combiner: Select
 
     val lhsCardinality = allNodes * calculateLabelSelectivity(labelsOnLhs)
     val rhsCardinality = allNodes * calculateLabelSelectivity(labelsOnRhs)
-
+    fbw.println("----------------------------------------")
+    fbw.println("semanticTable.resolvedLabelIds = "+semanticTable.resolvedLabelIds.toString()+"\n")
+    fbw.println("semanticTable.resolvedPropertyKeyNames = "+semanticTable.resolvedPropertyKeyNames.toString()+"\n")
+    fbw.println("semanticTable.resolvedRelTypeNames = "+semanticTable.resolvedRelTypeNames.toString()+"\n")
+    fbw.println("label info = "+selections.labelInfo.toString()+"\n")
+    fbw.println("patterns = "+pattern.toString+"\n")
+    fbw.println("labels = "+labels.toString+"\n")
+    fbw.println("allNodes = "+allNodes.toString+"\n")
+    fbw.println("lhs = "+lhs.toString+"\n")
+    fbw.println("rhs = "+rhs.toString+"\n")
+    fbw.println("labelsOnLhs = "+labelsOnLhs+"\n")
+    fbw.println("labelsOnRhs = "+labelsOnRhs+"\n")
+    fbw.println("lhsCardinality = "+lhsCardinality.toString+"\n")
+    fbw.println("rhsCardinality = "+rhsCardinality.toString+"\n")
+    fbw.close()
     // If either side of our pattern is empty, it's all empty
     if (lhsCardinality == Cardinality.EMPTY || lhsCardinality == Cardinality.EMPTY)
       Selectivity(1)

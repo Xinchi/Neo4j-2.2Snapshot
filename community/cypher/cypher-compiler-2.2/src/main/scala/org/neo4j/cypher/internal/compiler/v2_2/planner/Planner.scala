@@ -48,6 +48,8 @@ case class Planner(monitors: Monitors,
     maybeExecutionPlanBuilder.getOrElse(new PipeExecutionPlanBuilder(clock, monitors))
 
   def producePlan(inputQuery: PreparedQuery, planContext: PlanContext): PipeInfo = {
+    //Log added by Max
+    logQuery(inputQuery)
     Planner.rewriteStatement(inputQuery.statement, inputQuery.scopeTree) match {
       case ast: Query =>
         // Added by Max: monitor keeps updating the curret stage of planning
@@ -66,7 +68,6 @@ case class Planner(monitors: Monitors,
   def produceLogicalPlan(ast: Query, semanticTable: SemanticTable)(planContext: PlanContext): (LogicalPlan, PipeExecutionBuilderContext) = {
     tokenResolver.resolve(ast)(semanticTable, planContext)
     val unionQuery = ast.asUnionQuery
-
     val metrics = metricsFactory.newMetrics(planContext.statistics, semanticTable)
     log(planContext.statistics.toString)
     val context = LogicalPlanningContext(planContext, metrics, semanticTable, queryGraphSolver, QueryGraphCardinalityInput.empty)
@@ -76,6 +77,13 @@ case class Planner(monitors: Monitors,
     (plan, pipeBuildContext)
   }
 
+  def logQuery(inputQuery: PreparedQuery) = {
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("PipeLogicalPlan.txt", true)));
+    fbw.println("### QUERY DETAILS ###")
+    fbw.println(inputQuery.queryText)
+    fbw.println("### END OF DETAILS ###")
+    fbw.close()
+  }
   def log(msg:String) = {
     // Logger created by Max
     val fbw = new PrintWriter(new BufferedWriter(new FileWriter("Planner.txt", true)));
