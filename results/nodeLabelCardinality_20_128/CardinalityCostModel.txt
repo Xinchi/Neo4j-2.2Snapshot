@@ -1,0 +1,1412 @@
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(182.25)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(182.25)
+totalCost = Cost(668.25)
+Cardinality in non-selection case = Cardinality(30.000000000001663)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(30.000000000001663)
+totalCost = Cost(698.2500000000017)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(397.9999999999968)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(397.9999999999968)
+totalCost = Cost(883.9999999999968)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(40.00000000000222)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(40.00000000000222)
+totalCost = Cost(526.0000000000023)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(397.9999999999968)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(397.9999999999968)
+totalCost = Cost(883.9999999999968)
+Cardinality in non-selection case = Cardinality(65.51440329218418)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.51440329218418)
+totalCost = Cost(949.514403292181)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(3.999999999999961)
+totalCost = Cost(746.0)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(811.5144032921798)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(397.9999999999968)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(39.799999999999685)
+totalCost = Cost(781.7999999999997)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(847.3144032921796)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(284.9999999999989)
+totalCost = Cost(540.9999999999989)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1007.7901234567835)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(397.9999999999968)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(397.9999999999968)
+totalCost = Cost(883.9999999999968)
+Cardinality in non-selection case = Cardinality(651.8683127571913)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(651.8683127571913)
+totalCost = Cost(1535.868312757188)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(284.9999999999989)
+totalCost = Cost(540.9999999999989)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1007.7901234567835)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(28.499999999999893)
+totalCost = Cost(770.4999999999999)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1237.2901234567844)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(284.9999999999989)
+totalCost = Cost(540.9999999999989)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1007.7901234567835)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+Cardinality in non-selection case = Cardinality(243.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(397.9999999999968)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(39.799999999999685)
+totalCost = Cost(781.7999999999997)
+Cardinality in non-selection case = Cardinality(466.79012345678467)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(466.79012345678467)
+totalCost = Cost(1248.5901234567843)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(29.999999999999705)
+totalCost = Cost(325.9999999999993)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(12.499999999999753)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(12.499999999999753)
+totalCost = Cost(308.4999999999994)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(12.499999999999753)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(12.499999999999753)
+totalCost = Cost(308.4999999999994)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(2.9999999999999707)
+totalCost = Cost(554.9999999999995)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(12.499999999999753)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(12.499999999999753)
+totalCost = Cost(308.4999999999994)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(3.999999999999961)
+totalCost = Cost(555.9999999999995)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(29.999999999999705)
+totalCost = Cost(325.9999999999993)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(392.7968749999984)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(284.9999999999989)
+totalCost = Cost(540.9999999999989)
+Cardinality in non-selection case = Cardinality(89.06249999999876)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(89.06249999999876)
+totalCost = Cost(630.0624999999976)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(29.999999999999705)
+totalCost = Cost(325.9999999999993)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(392.7968749999984)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(2.9999999999999707)
+totalCost = Cost(554.9999999999995)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(621.7968749999986)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(29.999999999999705)
+totalCost = Cost(325.9999999999993)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(392.7968749999984)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(28.499999999999893)
+totalCost = Cost(580.4999999999995)
+Cardinality in non-selection case = Cardinality(66.79687499999908)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999908)
+totalCost = Cost(647.2968749999986)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(284.9999999999989)
+totalCost = Cost(540.9999999999989)
+Cardinality in non-selection case = Cardinality(89.06249999999876)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(89.06249999999876)
+totalCost = Cost(630.0624999999976)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(89.06249999999878)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(89.06249999999878)
+totalCost = Cost(385.0624999999984)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(89.06249999999878)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(89.06249999999878)
+totalCost = Cost(385.0624999999984)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(28.499999999999893)
+totalCost = Cost(540.4999999999999)
+Cardinality in non-selection case = Cardinality(89.06249999999876)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(89.06249999999876)
+totalCost = Cost(629.5624999999986)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(89.06249999999878)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(89.06249999999878)
+totalCost = Cost(385.0624999999984)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(3.999999999999961)
+totalCost = Cost(516.0)
+Cardinality in non-selection case = Cardinality(89.06249999999878)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(89.06249999999878)
+totalCost = Cost(605.0624999999987)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(29.999999999999705)
+totalCost = Cost(325.9999999999993)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(392.7968749999984)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(6.551440329217991)
+totalCost = Cost(760.862718621396)
+Cardinality in non-selection case = Cardinality(0.14069436109205466)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.14069436109205466)
+totalCost = Cost(761.003412982488)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(284.9999999999989)
+totalCost = Cost(540.9999999999989)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1007.7901234567835)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(12.499999999999753)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(12.499999999999753)
+totalCost = Cost(308.4999999999994)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(46.679012345678466)
+totalCost = Cost(1362.9691358024613)
+Cardinality in non-selection case = Cardinality(0.1406943610920547)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.1406943610920547)
+totalCost = Cost(1363.1098301635534)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(29.999999999999705)
+totalCost = Cost(325.9999999999993)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(392.7968749999984)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(6.551440329217991)
+totalCost = Cost(760.862718621396)
+Cardinality in non-selection case = Cardinality(0.14069436109205466)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.14069436109205466)
+totalCost = Cost(761.003412982488)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(12.499999999999753)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(12.499999999999753)
+totalCost = Cost(308.4999999999994)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(284.9999999999989)
+totalCost = Cost(540.9999999999989)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1007.7901234567835)
+Cardinality in non-selection case = Cardinality(9.374999999999813)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(0.9374999999999813)
+totalCost = Cost(1317.2276234567828)
+Cardinality in non-selection case = Cardinality(0.14069436109205466)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.14069436109205466)
+totalCost = Cost(1317.3683178178749)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(29.999999999999705)
+totalCost = Cost(325.9999999999993)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(392.7968749999984)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(6.551440329217991)
+totalCost = Cost(760.862718621396)
+Cardinality in non-selection case = Cardinality(0.14069436109205466)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.14069436109205466)
+totalCost = Cost(761.003412982488)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(29.999999999999705)
+totalCost = Cost(325.9999999999993)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(392.7968749999984)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+costForThisPlan = Cost(6.679687499999909)
+totalCost = Cost(760.9909657921778)
+Cardinality in non-selection case = Cardinality(0.1406943610920547)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.1406943610920547)
+totalCost = Cost(761.1316601532699)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(284.9999999999989)
+totalCost = Cost(540.9999999999989)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1007.7901234567835)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1474.580246913568)
+Cardinality in non-selection case = Cardinality(145.87191358024373)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(145.87191358024373)
+totalCost = Cost(1620.4521604938118)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(29.999999999999705)
+totalCost = Cost(325.9999999999993)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(392.7968749999984)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(459.5937499999975)
+Cardinality in non-selection case = Cardinality(109.40393518518282)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(109.40393518518282)
+totalCost = Cost(568.9976851851803)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(12.499999999999753)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(12.499999999999753)
+totalCost = Cost(308.4999999999994)
+Cardinality in non-selection case = Cardinality(9.374999999999813)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(9.374999999999813)
+totalCost = Cost(317.8749999999992)
+Cardinality in non-selection case = Cardinality(20.874023437499506)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(20.874023437499506)
+totalCost = Cost(338.7490234374987)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(29.999999999999705)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(29.999999999999705)
+totalCost = Cost(325.9999999999993)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(392.7968749999984)
+Cardinality in non-selection case = Cardinality(66.79687499999909)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(66.79687499999909)
+totalCost = Cost(459.5937499999975)
+Cardinality in non-selection case = Cardinality(20.874023437499506)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(20.874023437499506)
+totalCost = Cost(480.467773437497)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(12.499999999999753)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(12.499999999999753)
+totalCost = Cost(308.4999999999994)
+Cardinality in non-selection case = Cardinality(9.374999999999813)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(9.374999999999813)
+totalCost = Cost(317.8749999999992)
+Cardinality in non-selection case = Cardinality(20.874023437499506)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(20.874023437499506)
+totalCost = Cost(338.7490234374987)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(89.06249999999878)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(89.06249999999878)
+totalCost = Cost(385.0624999999984)
+Cardinality in non-selection case = Cardinality(89.06249999999878)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(89.06249999999878)
+totalCost = Cost(474.12499999999716)
+Cardinality in non-selection case = Cardinality(27.832031249999343)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(27.832031249999343)
+totalCost = Cost(501.9570312499965)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(427.0288065843594)
+Cardinality in non-selection case = Cardinality(20.473251028806015)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(20.473251028806015)
+totalCost = Cost(447.50205761316545)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(12.499999999999753)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(12.499999999999753)
+totalCost = Cost(308.4999999999994)
+Cardinality in non-selection case = Cardinality(9.374999999999813)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(9.374999999999813)
+totalCost = Cost(317.8749999999992)
+Cardinality in non-selection case = Cardinality(15.354938271604512)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(15.354938271604512)
+totalCost = Cost(333.2299382716037)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(427.0288065843594)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(427.6291025250189)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(428.22939846567834)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(427.0288065843594)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(427.6291025250189)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(428.22939846567834)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(427.0288065843594)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(427.6291025250189)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(428.22939846567834)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(284.9999999999989)
+totalCost = Cost(540.9999999999989)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1007.7901234567835)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1474.580246913568)
+Cardinality in non-selection case = Cardinality(0.6002959406594391)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594391)
+totalCost = Cost(1475.1805428542275)
+Cardinality in non-selection case = Cardinality(0.6002959406594391)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594391)
+totalCost = Cost(1475.780838794887)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(427.0288065843594)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(427.6291025250189)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(428.22939846567834)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(284.9999999999989)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(284.9999999999989)
+totalCost = Cost(540.9999999999989)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1007.7901234567835)
+Cardinality in non-selection case = Cardinality(466.7901234567846)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(466.7901234567846)
+totalCost = Cost(1474.580246913568)
+Cardinality in non-selection case = Cardinality(0.6002959406594391)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594391)
+totalCost = Cost(1475.1805428542275)
+Cardinality in non-selection case = Cardinality(0.6002959406594391)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594391)
+totalCost = Cost(1475.780838794887)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(427.0288065843594)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(427.6291025250189)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(428.22939846567834)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(89.06249999999878)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(89.06249999999878)
+totalCost = Cost(385.0624999999984)
+Cardinality in non-selection case = Cardinality(89.06249999999878)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(89.06249999999878)
+totalCost = Cost(474.12499999999716)
+Cardinality in non-selection case = Cardinality(0.6002959406594394)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594394)
+totalCost = Cost(474.7252959406566)
+Cardinality in non-selection case = Cardinality(0.6002959406594394)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594394)
+totalCost = Cost(475.3255918813161)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(361.5144032921795)
+Cardinality in non-selection case = Cardinality(65.5144032921799)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(65.5144032921799)
+totalCost = Cost(427.0288065843594)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(427.6291025250189)
+Cardinality in non-selection case = Cardinality(0.6002959406594393)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594393)
+totalCost = Cost(428.22939846567834)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+costForThisPlan = Cost(128.0)
+totalCost = Cost(128.0)
+Cardinality in non-selection case = Cardinality(128.0)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(128.0)
+totalCost = Cost(256.0)
+Cardinality in non-selection case = Cardinality(39.99999999999961)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(39.99999999999961)
+totalCost = Cost(295.9999999999996)
+Cardinality in non-selection case = Cardinality(89.06249999999878)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(89.06249999999878)
+totalCost = Cost(385.0624999999984)
+Cardinality in non-selection case = Cardinality(89.06249999999878)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+costForThisPlan = Cost(89.06249999999878)
+totalCost = Cost(474.12499999999716)
+Cardinality in non-selection case = Cardinality(0.6002959406594394)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594394)
+totalCost = Cost(474.7252959406566)
+Cardinality in non-selection case = Cardinality(0.6002959406594394)
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+costForThisPlan = Cost(0.6002959406594394)
+totalCost = Cost(475.3255918813161)

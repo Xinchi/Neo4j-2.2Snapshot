@@ -1,0 +1,53 @@
+neo4j-sh (?)$ profile profile match p = (e)-[r2]->()-[r3]->(l)<-[t:Location]-(e:Event)-[r:Agent]->(b) where b.groupName =~ 'Communist.*' return distinct p;
++---+
+| p |
++---+
++---+
+0 row
+1898 ms
+
+Compiler CYPHER 2.2-cost
+
+Distinct
+  |
+  +Filter(0)
+    |
+    +NodeHashJoin(0)
+      |
+      +Filter(1)
+      |  |
+      |  +Expand(0)
+      |    |
+      |    +Expand(1)
+      |      |
+      |      +NodeByLabelScan(2)
+      |
+      +NodeHashJoin(1)
+         |
+         +Filter(2)
+         |  |
+         |  +Expand(2)
+         |    |
+         |    +NodeByLabelScan(2)
+         |
+         +Expand(3)
+            |
+            +NodeByLabelScan(2)
+
++--------------------+---------------+------+--------+-----------------------+-----------------------------------------------------------------------+
+|           Operator | EstimatedRows | Rows | DbHits |           Identifiers |                                                                 Other |
++--------------------+---------------+------+--------+-----------------------+-----------------------------------------------------------------------+
+|           Distinct |           547 |    0 |      0 |                     p |                                                                     p |
+|          Filter(0) |           576 |    0 |      0 | b, e, l, r, r2, r3, t | (((NOT(r == r3) AND NOT(r2 == t)) AND NOT(r3 == t)) AND NOT(r == r2)) |
+|    NodeHashJoin(0) |           576 |    0 |      0 | b, e, l, r, r2, r3, t |                                                                  e, l |
+|          Filter(1) |           466 |    0 |      0 |          e, l, r2, r3 |                                                         NOT(r2 == r3) |
+|          Expand(0) |           466 |    1 |      3 |          e, l, r2, r3 |                                                         ()-[:r3]->(l) |
+|          Expand(1) |           285 |    2 |      3 |                 e, r2 |                                                         (e)-[:r2]->() |
+| NodeByLabelScan(2) |             2 |   41 |     43 |                     e |                                                                   :20 |
+|    NodeHashJoin(1) |           599 |    0 |      0 |         b, e, l, r, t |                                                                     e |
+|          Filter(2) |            29 |    0 |     80 |               b, e, r |                        Property(b,groupName(34)) ~= /{  AUTOSTRING0}/ |
+|          Expand(2) |            39 |   40 |     80 |               b, e, r |                                                         (e)-[:r]->(b) |
+| NodeByLabelScan(2) |             2 |   41 |     43 |                     e |                                                                   :20 |
+|          Expand(3) |            39 |    0 |      0 |               e, l, t |                                                         (e)-[:t]->(l) |
+| NodeByLabelScan(2) |             2 |   41 |     43 |                     e |                                                                   :20 |
++--------------------+---------------+------+--------+-----------------------+-----------------------------------------------------------------------+

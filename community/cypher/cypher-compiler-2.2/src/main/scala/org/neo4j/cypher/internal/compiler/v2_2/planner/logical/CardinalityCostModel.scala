@@ -77,15 +77,15 @@ case class CardinalityCostModel(cardinality: CardinalityModel) extends CostModel
       result
     }
   }
-
-  def log(msg:String) = {
-    // Logger created by Max
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("QueriedGraphStatistics.txt", true)));
-    fbw.println("-------------------------------"+this.getClass+"---------------------------------\n")
-    fbw.println(msg)
-    fbw.println("----------------------------------------------------------------\n")
-    fbw.close()
-  }
+//
+//  def log(msg:String) = {
+//    // Logger created by Max
+//    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("QueriedGraphStatistics.txt", true)));
+//    fbw.println("-------------------------------"+this.getClass+"---------------------------------\n")
+//    fbw.println(msg)
+//    fbw.println("----------------------------------------------------------------\n")
+//    fbw.close()
+//  }
 
   def apply(plan: LogicalPlan, input: QueryGraphCardinalityInput): Cost = {
     val sb = new StringBuilder

@@ -1,0 +1,966 @@
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = ArrayBuffer(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(b),Set())))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(b),Set())))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = ArrayBuffer(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()), Selection(ArrayBuffer(HasLabels(Identifier(e),List(LabelName(Event)))),AllNodesScan(IdName(e),Set())))
+
+
+costs = <function2>
+
+
+Return = Some(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = ArrayBuffer(AllNodesScan(IdName(  UNNAMED21),Set()))
+
+
+costs = <function2>
+
+
+Return = Some(AllNodesScan(IdName(  UNNAMED21),Set()))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = ArrayBuffer(AllNodesScan(IdName(l),Set()))
+
+
+costs = <function2>
+
+
+Return = Some(AllNodesScan(IdName(l),Set()))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(HasLabels(Identifier(e),List(LabelName(Event)))),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),AllNodesScan(IdName(b),Set())),IdName(b),INCOMING,OUTGOING,List(RelTypeName(Agent)),IdName(e),IdName(r),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()), Selection(ArrayBuffer(HasLabels(Identifier(e),List(LabelName(Event)))),Expand(AllNodesScan(IdName(  UNNAMED21),Set()),IdName(  UNNAMED21),INCOMING,OUTGOING,List(),IdName(e),IdName(r2),SimplePatternLength,ArrayBuffer())))
+
+
+costs = <function2>
+
+
+Return = Some(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()), Selection(ArrayBuffer(HasLabels(Identifier(e),List(LabelName(Event)))),Expand(AllNodesScan(IdName(l),Set()),IdName(l),INCOMING,INCOMING,List(RelTypeName(Location)),IdName(e),IdName(t),SimplePatternLength,ArrayBuffer())))
+
+
+costs = <function2>
+
+
+Return = Some(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Expand(AllNodesScan(IdName(  UNNAMED21),Set()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer()), Expand(AllNodesScan(IdName(l),Set()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer()))
+
+
+costs = <function2>
+
+
+Return = Some(Expand(AllNodesScan(IdName(  UNNAMED21),Set()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer()))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(HasLabels(Identifier(e),List(LabelName(Event))), NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(AllNodesScan(IdName(  UNNAMED21),Set()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,INCOMING,List(RelTypeName(Location)),IdName(e),IdName(t),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),NodeHashJoin(Set(IdName(l)),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),Expand(AllNodesScan(IdName(  UNNAMED21),Set()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer()))), Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),NodeHashJoin(Set(IdName(l)),Expand(AllNodesScan(IdName(  UNNAMED21),Set()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer()),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()))))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(HasLabels(Identifier(e),List(LabelName(Event))), NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(AllNodesScan(IdName(  UNNAMED21),Set()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer()),IdName(  UNNAMED21),INCOMING,OUTGOING,List(),IdName(e),IdName(r2),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(r3))),NodeHashJoin(Set(IdName(  UNNAMED21)),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),Expand(AllNodesScan(IdName(  UNNAMED21),Set()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer()))), Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(r3))),NodeHashJoin(Set(IdName(  UNNAMED21)),Expand(AllNodesScan(IdName(  UNNAMED21),Set()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer()),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()))))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer())))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()), Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())), NodeHashJoin(Set(IdName(e)),Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer())), NodeHashJoin(Set(IdName(e)),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer()))))
+
+
+costs = <function2>
+
+
+Return = Some(Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r2))),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0)), NotEquals(Identifier(r),Identifier(r2))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r2))),NodeHashJoin(Set(IdName(e)),Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()))), Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r2))),NodeHashJoin(Set(IdName(e)),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())))))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r2))),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t))),NodeHashJoin(Set(IdName(e)),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()))), Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t))),NodeHashJoin(Set(IdName(e)),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()))))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t))),NodeHashJoin(Set(IdName(e)),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()))))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r2),Identifier(r3))),NodeHashJoin(Set(IdName(e), IdName(  UNNAMED21)),Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())),Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r2))),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())))), Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r3),Identifier(t)), NotEquals(Identifier(r),Identifier(r2))),NodeHashJoin(Set(IdName(e), IdName(l)),Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer())),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()))), Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r3),Identifier(t)), NotEquals(Identifier(r),Identifier(r2))),NodeHashJoin(Set(IdName(e), IdName(l)),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer())))), Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r2),Identifier(r3))),NodeHashJoin(Set(IdName(e), IdName(  UNNAMED21)),Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r2))),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())),Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())))))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r2),Identifier(r3))),NodeHashJoin(Set(IdName(e), IdName(  UNNAMED21)),Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())),Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r2))),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())))))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0)), NotEquals(Identifier(r),Identifier(r2))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r2),Identifier(r3))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r2))),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer())))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r2),Identifier(r3))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r2))),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer())))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r),Identifier(r2))),Expand(Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r2))),Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0)), NotEquals(Identifier(r),Identifier(r2))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t))),NodeHashJoin(Set(IdName(e)),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()))),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r),Identifier(r2))),Expand(Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer())))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(Selection(ArrayBuffer(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r2),Identifier(r3))),Selection(List(Equals(Identifier(  UNNAMED21),Identifier(  UNNAMED21$$$))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21$$$),IdName(r2),SimplePatternLength,ArrayBuffer()))), Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r2),Identifier(r3))),Selection(List(Equals(Identifier(e),Identifier(e$$$))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())),IdName(  UNNAMED21),INCOMING,OUTGOING,List(),IdName(e$$$),IdName(r2),SimplePatternLength,ArrayBuffer()))), Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r3),Identifier(t))),Selection(List(Equals(Identifier(l),Identifier(l$$$))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l$$$),IdName(t),SimplePatternLength,ArrayBuffer()))), Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r3),Identifier(t))),Selection(List(Equals(Identifier(e),Identifier(e$$$))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,ArrayBuffer())),IdName(l),INCOMING,INCOMING,List(RelTypeName(Location)),IdName(e$$$),IdName(t),SimplePatternLength,ArrayBuffer()))), Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t)), NotEquals(Identifier(r2),Identifier(r3))),Selection(List(Equals(Identifier(  UNNAMED21),Identifier(  UNNAMED21$$$))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t))),NodeHashJoin(Set(IdName(e)),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()))),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21$$$),IdName(r3),SimplePatternLength,ArrayBuffer()))), Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t)), NotEquals(Identifier(r2),Identifier(r3))),Selection(List(Equals(Identifier(l),Identifier(l$$$))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t))),NodeHashJoin(Set(IdName(e)),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,ArrayBuffer()))),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l$$$),IdName(r3),SimplePatternLength,ArrayBuffer()))))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r2),Identifier(r3))),Selection(List(Equals(Identifier(  UNNAMED21),Identifier(  UNNAMED21$$$))),Expand(Selection(ArrayBuffer(NotEquals(Identifier(r3),Identifier(t))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,ArrayBuffer()),IdName(l),INCOMING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r3),SimplePatternLength,ArrayBuffer())),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21$$$),IdName(r2),SimplePatternLength,ArrayBuffer()))))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+

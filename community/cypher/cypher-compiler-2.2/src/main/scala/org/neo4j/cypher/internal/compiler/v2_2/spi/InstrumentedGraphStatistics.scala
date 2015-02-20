@@ -19,6 +19,8 @@
  */
 package org.neo4j.cypher.internal.compiler.v2_2.spi
 
+import org.neo4j.cypher.internal.compiler.v2_2.ast.False
+
 import scala.io.Source
 import java.io.{BufferedWriter, FileWriter, PrintWriter}
 import org.neo4j.cypher.internal.compiler.v2_2.planner.logical.{Cardinality, Selectivity}
@@ -122,25 +124,35 @@ case class InstrumentedGraphStatistics(inner: GraphStatistics, snapshot: Mutable
     res
   }
   def nodesWithLabelCardinality(labelId: Option[LabelId]): Cardinality = {
+//    Configuration
+    val fromInput:Boolean = false
+//    End of configuration
     val fbw = new PrintWriter(new BufferedWriter(new FileWriter("InstrumentedGraphStatistics.txt",true)))
     fbw.println("-------------- nodesWithLabelCardinality ---------------")
-    fbw.println(nodesWithLabelCardinalityInputDict.toString())
     fbw.println("inner = "+inner.toString+"\n")
     fbw.println("snapshot = "+snapshot.toString+"\n")
     fbw.println("labelId = "+labelId.toString+"\n")
-    // Empty Case
-    if(labelId.isEmpty) {
-      fbw.println("cardinality = "+Cardinality(nodesWithLabelCardinalityInputDict.get(-1).get)+"\n")
-      return Cardinality(nodesWithLabelCardinalityInputDict.get(-1).get)
+
+    if(fromInput) {
+      fbw.println("* cardinality from manual input * ")
+      fbw.println(nodesWithLabelCardinalityInputDict.toString())
+      // Empty Case
+      if(labelId.isEmpty) {
+        fbw.println("cardinality = "+Cardinality(nodesWithLabelCardinalityInputDict.get(-1).get)+"\n")
+        return Cardinality(nodesWithLabelCardinalityInputDict.get(-1).get)
+      }
+      if(nodesWithLabelCardinalityInputDict.get(labelId.get.id).isEmpty) {
+        //      throw new Exception("The labelID is not defined!")
+        fbw.println("label input is not defined")
+        return Cardinality(2)
+      }
+      val res = Cardinality(nodesWithLabelCardinalityInputDict.get(labelId.get.id).get)
+      fbw.println("cardinality = "+res.toString+"\n")
+      fbw.close()
+      return res
     }
-    if(nodesWithLabelCardinalityInputDict.get(labelId.get.id).isEmpty) {
-//      throw new Exception("The labelID is not defined!")
-      fbw.println("label input is not defined")
-      return Cardinality(2)
-    }
-    val res = Cardinality(nodesWithLabelCardinalityInputDict.get(labelId.get.id).get)
-//    val res = snapshot.map.getOrElseUpdate(NodesWithLabelCardinality(labelId), inner.nodesWithLabelCardinality(labelId).amount)
-    fbw.println("labelId = "+labelId.toString+"\n")
+
+    val res = snapshot.map.getOrElseUpdate(NodesWithLabelCardinality(labelId), inner.nodesWithLabelCardinality(labelId).amount)
     fbw.println("cardinality = "+res.toString+"\n")
     fbw.close()
     res

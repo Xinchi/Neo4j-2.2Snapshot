@@ -1,0 +1,17 @@
+### QUERY DETAILS ###
+match (n:Event)-->(m:Place) where n.Year <= 1975 return n.EventID, m.cityName
+### END OF DETAILS ###
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0)), HasLabels(Identifier(n),List(LabelName(Event)))),Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(),IdName(n),IdName(  UNNAMED16),SimplePatternLength,Vector())),Map(n.EventID -> Property(Identifier(n),PropertyKeyName(EventID)), m.cityName -> Property(Identifier(m),PropertyKeyName(cityName))))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0)), HasLabels(Identifier(n),List(LabelName(Event)))),Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(),IdName(n),IdName(  UNNAMED16),SimplePatternLength,Vector()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(),IdName(n),IdName(  UNNAMED16),SimplePatternLength,Vector())
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set())
+------------------------ END OF DETAILS ------------------------

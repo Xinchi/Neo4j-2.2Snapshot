@@ -1,0 +1,60 @@
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CardinalityCostModel---------------------------------
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+Cost(40.0)
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CardinalityCostModel---------------------------------
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Cost(80.0)
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CardinalityCostModel---------------------------------
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+Cost(243.0)
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CardinalityCostModel---------------------------------
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Cost(486.0)
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CardinalityCostModel---------------------------------
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+Cost(40.0)
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CardinalityCostModel---------------------------------
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Cost(80.0)
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CardinalityCostModel---------------------------------
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Cost(92.0)
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CardinalityCostModel---------------------------------
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+Cost(243.0)
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CardinalityCostModel---------------------------------
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Cost(486.0)
+----------------------------------------------------------------
+
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.logical.CardinalityCostModel---------------------------------
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Cost(526.0000000000023)
+----------------------------------------------------------------
+

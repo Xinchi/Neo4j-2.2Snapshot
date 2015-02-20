@@ -1,0 +1,47 @@
+### QUERY DETAILS ###
+match p = (e)-[r2]->()-[r3]->(l)<-[t:Location]-(e:Event)-[r:Agent]->(b) where b.groupName =~ 'Communist.*' return distinct p
+### END OF DETAILS ###
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+-------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+-------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+Aggregation(Projection(Selection(Vector(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r3),Identifier(t)), NotEquals(Identifier(r),Identifier(r2))),NodeHashJoin(Set(IdName(e), IdName(l)),Selection(Vector(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,Vector()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,Vector())),NodeHashJoin(Set(IdName(e)),Selection(Vector(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,Vector())),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,Vector())))),Map(p -> PathExpression(NodePathStep(Identifier(e),SingleRelationshipPathStep(Identifier(r2),OUTGOING,SingleRelationshipPathStep(Identifier(r3),OUTGOING,SingleRelationshipPathStep(Identifier(t),INCOMING,SingleRelationshipPathStep(Identifier(r),OUTGOING,org.neo4j.cypher.internal.compiler.v2_2.ast.NilPathStep$@325bf34)))))))),Map(p -> PathExpression(NodePathStep(Identifier(e),SingleRelationshipPathStep(Identifier(r2),OUTGOING,SingleRelationshipPathStep(Identifier(r3),OUTGOING,SingleRelationshipPathStep(Identifier(t),INCOMING,SingleRelationshipPathStep(Identifier(r),OUTGOING,org.neo4j.cypher.internal.compiler.v2_2.ast.NilPathStep$@325bf34))))))),Map())
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Selection(Vector(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r3),Identifier(t)), NotEquals(Identifier(r),Identifier(r2))),NodeHashJoin(Set(IdName(e), IdName(l)),Selection(Vector(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,Vector()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,Vector())),NodeHashJoin(Set(IdName(e)),Selection(Vector(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,Vector())),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,Vector())))),Map(p -> PathExpression(NodePathStep(Identifier(e),SingleRelationshipPathStep(Identifier(r2),OUTGOING,SingleRelationshipPathStep(Identifier(r3),OUTGOING,SingleRelationshipPathStep(Identifier(t),INCOMING,SingleRelationshipPathStep(Identifier(r),OUTGOING,org.neo4j.cypher.internal.compiler.v2_2.ast.NilPathStep$@325bf34))))))))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r),Identifier(r3)), NotEquals(Identifier(r2),Identifier(t)), NotEquals(Identifier(r3),Identifier(t)), NotEquals(Identifier(r),Identifier(r2))),NodeHashJoin(Set(IdName(e), IdName(l)),Selection(Vector(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,Vector()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,Vector())),NodeHashJoin(Set(IdName(e)),Selection(Vector(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,Vector())),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,Vector()))))
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+NodeHashJoin(Set(IdName(e), IdName(l)),Selection(Vector(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,Vector()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,Vector())),NodeHashJoin(Set(IdName(e)),Selection(Vector(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,Vector())),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,Vector())))
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(NotEquals(Identifier(r2),Identifier(r3))),Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,Vector()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,Vector()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,Vector()),IdName(  UNNAMED21),OUTGOING,OUTGOING,List(),IdName(l),IdName(r3),SimplePatternLength,Vector())
+------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(),IdName(  UNNAMED21),IdName(r2),SimplePatternLength,Vector())
+-------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(e),Right(LabelId(20)),Set())
+----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+NodeHashJoin(Set(IdName(e)),Selection(Vector(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,Vector())),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,Vector()))
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(RegexMatch(Property(Identifier(b),PropertyKeyName(groupName)),Parameter(  AUTOSTRING0))),Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,Vector()))
+------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,OUTGOING,List(RelTypeName(Agent)),IdName(b),IdName(r),SimplePatternLength,Vector())
+-------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(e),Right(LabelId(20)),Set())
+-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(NodeByLabelScan(IdName(e),Right(LabelId(20)),Set()),IdName(e),OUTGOING,INCOMING,List(RelTypeName(Location)),IdName(l),IdName(t),SimplePatternLength,Vector())
+------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(e),Right(LabelId(20)),Set())
+------------------------ END OF DETAILS ------------------------

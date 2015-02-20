@@ -1,0 +1,50 @@
+neo4j-sh (?)$ profile profile match p = (e)-[r2]->()-[r3]->(l)<-[t:Location]-(e:Event)-[r:Agent]->(b) where b.groupName =~ 'Communist.*' return distinct p;
++---+
+| p |
++---+
++---+
+0 row
+2279 ms
+
+Compiler CYPHER 2.2-cost
+
+Distinct
+  |
+  +Filter(0)
+    |
+    +NodeHashJoin
+      |
+      +Filter(1)
+      |  |
+      |  +Expand(0)
+      |    |
+      |    +Expand(1)
+      |      |
+      |      +NodeByLabelScan(1)
+      |
+      +Filter(2)
+         |
+         +Expand(2)
+           |
+           +Filter(3)
+             |
+             +Expand(3)
+               |
+               +NodeByLabelScan(1)
+
++--------------------+---------------+------+--------+-----------------------+-----------------------------------------------------+
+|           Operator | EstimatedRows | Rows | DbHits |           Identifiers |                                               Other |
++--------------------+---------------+------+--------+-----------------------+-----------------------------------------------------+
+|           Distinct |             2 |    0 |      0 |                     p |                                                   p |
+|          Filter(0) |             2 |    0 |      0 | b, e, l, r, r2, r3, t | ((NOT(r == r3) AND NOT(r2 == t)) AND NOT(r2 == r3)) |
+|       NodeHashJoin |             2 |    0 |      0 | b, e, l, r, r2, r3, t |                                                 e,  |
+|          Filter(1) |            65 |    0 |      0 |           e, l, r3, t |                                        NOT(r3 == t) |
+|          Expand(0) |            65 |    1 |      2 |           e, l, r3, t |                                       (l)<-[:r3]-() |
+|          Expand(1) |            39 |    1 |      2 |               e, l, t |                                       (e)-[:t]->(l) |
+| NodeByLabelScan(1) |            32 |   41 |     43 |                     e |                                                 :20 |
+|          Filter(2) |           267 |    0 |      0 |           b, e, r, r2 |                                        NOT(r == r2) |
+|          Expand(2) |           267 |    0 |      0 |           b, e, r, r2 |                                       (e)-[:r2]->() |
+|          Filter(3) |            29 |    0 |     80 |               b, e, r |      Property(b,groupName(34)) ~= /{  AUTOSTRING0}/ |
+|          Expand(3) |            39 |   40 |     80 |               b, e, r |                                       (e)-[:r]->(b) |
+| NodeByLabelScan(1) |            32 |   41 |     43 |                     e |                                                 :20 |
++--------------------+---------------+------+--------+-----------------------+-----------------------------------------------------+

@@ -1,0 +1,140 @@
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = ArrayBuffer(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())), Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0)), HasLabels(Identifier(n),List(LabelName(Event)))),AllNodesScan(IdName(n),Set())))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = ArrayBuffer(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()), Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),AllNodesScan(IdName(m),Set())))
+
+
+costs = <function2>
+
+
+Return = Some(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = List(Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,OUTGOING,List(),IdName(m),IdName(  UNNAMED16),SimplePatternLength,ArrayBuffer())), Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0)), HasLabels(Identifier(n),List(LabelName(Event)))),Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(),IdName(n),IdName(  UNNAMED16),SimplePatternLength,ArrayBuffer())))
+
+
+costs = <function2>
+
+
+Return = Some(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0)), HasLabels(Identifier(n),List(LabelName(Event)))),Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(),IdName(n),IdName(  UNNAMED16),SimplePatternLength,ArrayBuffer())))
+
+
+----------------- bestPlan -----------------
+context.cardinalityInput = 
+QueryGraphCardinalityInput(Map(),Cardinality(1.0))
+
+
+plans = Stream()
+
+
+costs = <function2>
+
+
+Return = None
+
+
