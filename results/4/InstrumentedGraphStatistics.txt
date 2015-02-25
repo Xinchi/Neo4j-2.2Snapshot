@@ -1,0 +1,477 @@
+-------------- Constructor ---------------
+inner = 
+org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@31e9ef0d
+snapshot = 
+MutableGraphStatisticsSnapshot(Map())
+
+------- Read File -------
+-------------- Constructor ---------------
+inner = 
+org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@73e1195c
+snapshot = 
+MutableGraphStatisticsSnapshot(Map())
+
+------- Read File -------
+-------------- Constructor ---------------
+inner = 
+org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+snapshot = 
+MutableGraphStatisticsSnapshot(Map())
+
+------- Read File -------
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map())
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- cardinalityByLabelsAndRelationshipType ---------------
+
+dict = Map(20 -> Map(50 -> Map(30 -> 4000.0)), 30 -> Map(20 -> Map(100 -> 3000.0, 300 -> 2000.0)))
+fromLabel = None
+
+relTypeId = None
+
+toLabel = None
+
+cardinality got or updated to = 398.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- cardinalityByLabelsAndRelationshipType ---------------
+
+dict = Map(20 -> Map(50 -> Map(30 -> 4000.0)), 30 -> Map(20 -> Map(100 -> 3000.0, 300 -> 2000.0)))
+fromLabel = Some(LabelId(20))
+
+relTypeId = None
+
+toLabel = None
+
+cardinality got or updated to = 285.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(Some(LabelId(20)),None,None) -> 285.0, CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(Some(LabelId(20)),None,None) -> 285.0, CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(Some(LabelId(20)),None,None) -> 285.0, CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(Some(LabelId(20)),None,None) -> 285.0, CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(Some(LabelId(20)),None,None) -> 285.0, CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = Some(LabelId(20))
+
+cardinality = 40.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(Some(LabelId(20)),None,None) -> 285.0, CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(Some(LabelId(20)),None,None) -> 285.0, CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(Some(LabelId(20)),None,None) -> 285.0, CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+
+-------------- cardinalityByLabelsAndRelationshipType ---------------
+
+dict = Map(20 -> Map(50 -> Map(30 -> 4000.0)), 30 -> Map(20 -> Map(100 -> 3000.0, 300 -> 2000.0)))
+fromLabel = Some(LabelId(20))
+
+relTypeId = None
+
+toLabel = None
+
+cardinality got or updated to = 285.0
+
+-------------- nodesWithLabelCardinality ---------------
+inner = org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@330afe54
+
+snapshot = MutableGraphStatisticsSnapshot(Map(CardinalityByLabelsAndRelationshipType(Some(LabelId(20)),None,None) -> 285.0, CardinalityByLabelsAndRelationshipType(None,None,None) -> 398.0, NodesWithLabelCardinality(Some(LabelId(20))) -> 40.0, NodesWithLabelCardinality(None) -> 243.0))
+
+labelId = None
+
+cardinality = 243.0
+

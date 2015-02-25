@@ -1,0 +1,10 @@
+### QUERY DETAILS ###
+match (n:Event), (m:Place)  return count(*)
+### END OF DETAILS ###
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.CartesianProduct
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+

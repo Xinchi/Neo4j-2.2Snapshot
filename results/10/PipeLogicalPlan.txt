@@ -1,0 +1,18 @@
+### QUERY DETAILS ###
+match (n)-[:OccurredAt]->(l:Site)-[:LocatedIn]->(m:Place)<-[:Location]-(n:Event)-[:Agent]->(k:Perpetrator) where n.Year <= 1975 return n.EventID,m.cityName,l.Name,k.groupName
+### END OF DETAILS ###
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeHashJoin
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+

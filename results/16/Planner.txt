@@ -1,0 +1,5 @@
+-------------------------------class org.neo4j.cypher.internal.compiler.v2_2.planner.Planner---------------------------------
+
+InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@438bed2b,MutableGraphStatisticsSnapshot(Map()))
+----------------------------------------------------------------
+

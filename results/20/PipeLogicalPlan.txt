@@ -1,0 +1,14 @@
+### QUERY DETAILS ###
+match (n:Event), (m:Place) where (n)-[:Location]->(m) return count(*)
+### END OF DETAILS ###
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.SemiApply
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.CartesianProduct
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+################################################################
+

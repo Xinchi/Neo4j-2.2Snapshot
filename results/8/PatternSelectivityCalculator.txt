@@ -1,0 +1,4779 @@
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(l) -> Set(LabelName(Site)), IdName(n) -> Set(LabelName(Event)), IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = List(Unspecified())
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(243.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = List(Unspecified())
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(243.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED40),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(n)
+
+rhs = IdName(m)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+lhsCardinality = Cardinality(40.0)
+
+rhsCardinality = Cardinality(29.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED15),(IdName(l),IdName(n)),INCOMING,List(RelTypeName(OccurredAt)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(l)
+
+rhs = IdName(n)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(20)))
+
+lhsCardinality = Cardinality(32.0)
+
+rhsCardinality = Cardinality(40.0)
+
+----------------------------------------
+semanticTable.resolvedLabelIds = Map(Place -> LabelId(23), Site -> LabelId(25), Event -> LabelId(20))
+
+semanticTable.resolvedPropertyKeyNames = Map(EventID -> PropertyKeyId(11), cityName -> PropertyKeyId(35), Name -> PropertyKeyId(40), Year -> PropertyKeyId(8))
+
+semanticTable.resolvedRelTypeNames = Map(LocatedIn -> RelTypeId(5), Location -> RelTypeId(6), OccurredAt -> RelTypeId(7))
+
+label info = Map(IdName(m) -> Set(LabelName(Place)), IdName(n) -> Set(LabelName(Event)), IdName(l) -> Set(LabelName(Site)))
+
+patterns = PatternRelationship(IdName(  UNNAMED63),(IdName(m),IdName(l)),INCOMING,List(RelTypeName(LocatedIn)),SimplePatternLength)
+
+labels = Map()
+
+allNodes = Cardinality(243.0)
+
+lhs = IdName(m)
+
+rhs = IdName(l)
+
+labelsOnLhs = ArrayBuffer(SpecifiedAndKnown(LabelId(23)))
+
+labelsOnRhs = ArrayBuffer(SpecifiedAndKnown(LabelId(25)))
+
+lhsCardinality = Cardinality(29.0)
+
+rhsCardinality = Cardinality(32.0)
+

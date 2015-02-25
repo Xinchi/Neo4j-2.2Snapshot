@@ -1,0 +1,20 @@
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(n),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(m),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(n),List(LabelName(Event)))),AllNodesScan(IdName(n),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),AllNodesScan(IdName(m),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.CartesianProduct
+CartesianProduct(NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()),NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.CartesianProduct
+CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.CartesianProduct
+CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+Aggregation(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Map(),Map(count(*) -> CountStar()))

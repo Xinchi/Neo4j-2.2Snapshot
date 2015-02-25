@@ -1,0 +1,10 @@
+### QUERY DETAILS ###
+match (n:Event)-[:Location]->(m:Place) where n.Year <= 1975 return count(n)
+### END OF DETAILS ###
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+

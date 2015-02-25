@@ -1,0 +1,80 @@
+neo4j-sh (?)$ profile match (l:Site)<-[:OccurredAt]-(n:Event)-[:Location]->(m:Place)<-[:LocatedIn]-(l) where n.Year <= 1975 return n.EventID,m.cityName,l.Name;
++------------------------------------------------------------------------+
+| n.EventID    | m.cityName         | l.Name                             |
++------------------------------------------------------------------------+
+| 197001100001 | "East Berlin"      | ""                                 |
+| 197001280001 | "East Berlin"      | ""                                 |
+| 197001140001 | "Champaign"        | "Champaign Police Department"      |
+| 197001190004 | "Jersey City"      | "Front of building"                |
+| 197001210001 | "Quezon City"      | ""                                 |
+| 197000000001 | "Santo Domingo"    | ""                                 |
+| 197001110001 | "Unknown"          | ""                                 |
+| 197001200001 | "Guatemala City"   | ""                                 |
+| 197001270002 | "Norwalk"          | ""                                 |
+| 197001090002 | "Rio Piedras"      | "Caparra Shopping Center"          |
+| 197001220002 | "South Sioux City" | ""                                 |
+| 197001300002 | "South Sioux City" | "2503 Dakota Ave."                 |
+| 197001300001 | "South Sioux City" | "210 East 10 St."                  |
+| 197001010002 | "Cairo"            | ""                                 |
+| 197001050001 | "Baraboo"          | ""                                 |
+| 197001000001 | "Tarlac"           | ""                                 |
+| 197001220001 | "Caracas"          | ""                                 |
+| 197001120001 | "New York City"    | "Brooklyn"                         |
+| 197001250002 | "New York City"    | "Manhattan"                        |
+| 197001260003 | "New York City"    | "Queens"                           |
+| 197001150001 | "Montevideo"       | ""                                 |
+| 197001020001 | "Montevideo"       | ""                                 |
+| 197001310001 | "Bamban"           | ""                                 |
+| 197001190003 | "Seattle"          | "University of Washington"         |
+| 197001190002 | "Seattle"          | "Seattle University"               |
+| 197001280002 | "Seattle"          | "Front of building"                |
+| 197001130001 | "Seattle"          | ""                                 |
+| 197001300003 | "Coral Gables"     | "University of Miami"              |
+| 197001000003 | "Fukouka"          | ""                                 |
+| 197001090001 | "Detroit"          | ""                                 |
+| 197001020003 | "Madison"          | "University of Wisconsin, Madison" |
+| 197001030001 | "Madison"          | ""                                 |
+| 197001020002 | "Oakland"          | "Edes Substation"                  |
+| 197001120002 | "Rio Grande"       | ""                                 |
+| 197001060001 | "Denver"           | ""                                 |
+| 197001250001 | "West Point"       | ""                                 |
+| 197001260001 | "West Point"       | ""                                 |
+| 197001000002 | "Athens"           | ""                                 |
+| 197001080001 | "Rome"             | ""                                 |
+| 197000000002 | "Mexico city"      | ""                                 |
++------------------------------------------------------------------------+
+40 rows
+410 ms
+
+Compiler CYPHER 2.2-cost
+
+Projection
+  |
+  +Filter(0)
+    |
+    +Expand(0)
+      |
+      +Filter(1)
+        |
+        +Expand(1)
+          |
+          +Filter(2)
+            |
+            +Expand(2)
+              |
+              +NodeByLabelScan
+
++-----------------+---------------+------+--------+----------------------------------------------+-----------------------------------------------------------------+
+|        Operator | EstimatedRows | Rows | DbHits |                                  Identifiers |                                                           Other |
++-----------------+---------------+------+--------+----------------------------------------------+-----------------------------------------------------------------+
+|      Projection |             0 |   40 |    240 | l, l$$$, l.Name, m, m.cityName, n, n.EventID |                                   n.EventID, m.cityName, l.Name |
+|       Filter(0) |             0 |   40 |      0 |                                l, l$$$, m, n |                                                       l == l$$$ |
+|       Expand(0) |             0 |   66 |    106 |                                l, l$$$, m, n |                                                 (m)<-[:]-(l$$$) |
+|       Filter(1) |            11 |   40 |     40 |                                      l, m, n |                                            hasLabel(l:Site(25)) |
+|       Expand(1) |            11 |   40 |     80 |                                      l, m, n |                                                    (n)-[:]->(l) |
+|       Filter(2) |            11 |   40 |    120 |                                         m, n | (Property(n,Year(8)) <= {  AUTOINT0} AND hasLabel(n:Event(20))) |
+|       Expand(2) |            39 |   40 |     69 |                                         m, n |                                                    (m)<-[:]-(n) |
+| NodeByLabelScan |            29 |   29 |     30 |                                            m |                                                             :23 |
++-----------------+---------------+------+--------+----------------------------------------------+-----------------------------------------------------------------+
+
+Total database accesses: 685

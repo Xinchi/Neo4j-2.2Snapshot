@@ -1,0 +1,92 @@
+neo4j-sh (?)$ profile match (n)-[:OccurredAt]->(l:Site)-[:LocatedIn]->(m:Place)<-[:Location]-(n:Event)-[:Agent]->(k:Perpetrator) where n.Year <= 1975 return n.EventID,m.cityName,l.Name,k.groupName; 
++--------------------------------------------------------------------------------------------------------------------------+
+| n.EventID    | m.cityName         | l.Name                             | k.groupName                                     |
++--------------------------------------------------------------------------------------------------------------------------+
+| 197001100001 | "East Berlin"      | ""                                 | "Commune 1"                                     |
+| 197001280001 | "East Berlin"      | ""                                 | "Unknown"                                       |
+| 197001140001 | "Champaign"        | "Champaign Police Department"      | "Black Nationalists"                            |
+| 197001190004 | "Jersey City"      | "Front of building"                | "White Extremists"                              |
+| 197001210001 | "Quezon City"      | ""                                 | "Unknown"                                       |
+| 197000000001 | "Santo Domingo"    | ""                                 | "MANO-D"                                        |
+| 197001110001 | "Unknown"          | ""                                 | "Eritrean Liberation Front"                     |
+| 197001200001 | "Guatemala City"   | ""                                 | "Unknown"                                       |
+| 197001270002 | "Norwalk"          | ""                                 | "Left-Wing Militants"                           |
+| 197001090002 | "Rio Piedras"      | "Caparra Shopping Center"          | "Armed Commandos of Liberation"                 |
+| 197001220002 | "South Sioux City" | ""                                 | "Strikers"                                      |
+| 197001300002 | "South Sioux City" | "2503 Dakota Ave."                 | "Strikers"                                      |
+| 197001300001 | "South Sioux City" | "210 East 10 St."                  | "Strikers"                                      |
+| 197001010002 | "Cairo"            | ""                                 | "Black Nationalists"                            |
+| 197001050001 | "Baraboo"          | ""                                 | "Weather Underground, Weathermen"               |
+| 197001000001 | "Tarlac"           | ""                                 | "Unknown"                                       |
+| 197001220001 | "Caracas"          | ""                                 | "Fuerzas Armadas de Liberacion Nacional (FALN)" |
+| 197001120001 | "New York City"    | "Brooklyn"                         | "Black Nationalists"                            |
+| 197001250002 | "New York City"    | "Manhattan"                        | "Black Nationalists"                            |
+| 197001260003 | "New York City"    | "Queens"                           | "Black Nationalists"                            |
+| 197001150001 | "Montevideo"       | ""                                 | "Tupamaros (Uruguay)"                           |
+| 197001020001 | "Montevideo"       | ""                                 | "Tupamaros (Uruguay)"                           |
+| 197001310001 | "Bamban"           | ""                                 | "New People's Army (NPA)"                       |
+| 197001190003 | "Seattle"          | "University of Washington"         | "Student Radicals"                              |
+| 197001190002 | "Seattle"          | "Seattle University"               | "Black Nationalists"                            |
+| 197001280002 | "Seattle"          | "Front of building"                | "White Extremists"                              |
+| 197001130001 | "Seattle"          | ""                                 | "Black Nationalists"                            |
+| 197001300003 | "Coral Gables"     | "University of Miami"              | "Student Radicals"                              |
+| 197001000003 | "Fukouka"          | ""                                 | "Unknown"                                       |
+| 197001090001 | "Detroit"          | ""                                 | "Left-Wing Militants"                           |
+| 197001020003 | "Madison"          | "University of Wisconsin, Madison" | "New Year's Gang"                               |
+| 197001030001 | "Madison"          | ""                                 | "New Year's Gang"                               |
+| 197001020002 | "Oakland"          | "Edes Substation"                  | "Unknown"                                       |
+| 197001120002 | "Rio Grande"       | ""                                 | "Strikers"                                      |
+| 197001060001 | "Denver"           | ""                                 | "Left-Wing Militants"                           |
+| 197001250001 | "West Point"       | ""                                 | "White Extremists"                              |
+| 197001260001 | "West Point"       | ""                                 | "Black Nationalists"                            |
+| 197001000002 | "Athens"           | ""                                 | "Unknown"                                       |
+| 197001080001 | "Rome"             | ""                                 | "Unknown"                                       |
+| 197000000002 | "Mexico city"      | ""                                 | "23rd of September Communist League"            |
++--------------------------------------------------------------------------------------------------------------------------+
+40 rows
+609 ms
+
+Compiler CYPHER 2.2-cost
+
+Projection
+  |
+  +NodeHashJoin
+    |
+    +Filter(0)
+    |  |
+    |  +Expand(0)
+    |    |
+    |    +Filter(1)
+    |      |
+    |      +Expand(1)
+    |        |
+    |        +NodeByLabelScan(0)
+    |
+    +Filter(2)
+       |
+       +Expand(2)
+         |
+         +Filter(3)
+           |
+           +Expand(3)
+             |
+             +NodeByLabelScan(1)
+
++--------------------+---------------+------+--------+--------------------------------------------------------+-----------------------------------------------------------------+
+|           Operator | EstimatedRows | Rows | DbHits |                                            Identifiers |                                                           Other |
++--------------------+---------------+------+--------+--------------------------------------------------------+-----------------------------------------------------------------+
+|         Projection |             0 |   40 |    320 | k, k.groupName, l, l.Name, m, m.cityName, n, n.EventID |                      n.EventID, m.cityName, l.Name, k.groupName |
+|       NodeHashJoin |             0 |   40 |      0 |                                             k, l, m, n |                                                            l, n |
+|          Filter(0) |            11 |   40 |     40 |                                                k, l, n |                                            hasLabel(l:Site(25)) |
+|          Expand(0) |            11 |   40 |     80 |                                                k, l, n |                                                    (n)-[:]->(l) |
+|          Filter(1) |            11 |   40 |    120 |                                                   k, n | (Property(n,Year(8)) <= {  AUTOINT0} AND hasLabel(n:Event(20))) |
+|          Expand(1) |            39 |   40 |     62 |                                                   k, n |                                                    (k)<-[:]-(n) |
+| NodeByLabelScan(0) |            22 |   22 |     23 |                                                      k |                                                             :22 |
+|          Filter(2) |            15 |   66 |     66 |                                                l, m, n |                                            hasLabel(l:Site(25)) |
+|          Expand(2) |            15 |   66 |    106 |                                                l, m, n |                                                    (m)<-[:]-(l) |
+|          Filter(3) |            11 |   40 |    120 |                                                   m, n | (Property(n,Year(8)) <= {  AUTOINT0} AND hasLabel(n:Event(20))) |
+|          Expand(3) |            39 |   40 |     69 |                                                   m, n |                                                    (m)<-[:]-(n) |
+| NodeByLabelScan(1) |            29 |   29 |     30 |                                                      m |                                                             :23 |
++--------------------+---------------+------+--------+--------------------------------------------------------+-----------------------------------------------------------------+
+
+Total database accesses: 1036

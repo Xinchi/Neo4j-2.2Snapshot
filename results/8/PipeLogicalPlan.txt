@@ -1,0 +1,14 @@
+### QUERY DETAILS ###
+match (l:Site)<-[:OccurredAt]-(n:Event)-[:Location]->(m:Place)<-[:LocatedIn]-(l) where n.Year <= 1975 return n.EventID,m.cityName,l.Name
+### END OF DETAILS ###
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#-----org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#-------org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+

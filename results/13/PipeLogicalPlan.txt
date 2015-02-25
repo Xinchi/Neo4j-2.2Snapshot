@@ -1,0 +1,3 @@
+### QUERY DETAILS ###
+match p=(n:Event)-[*..3]->(:Place) where n.Year <= 1975 return count(p)
+### END OF DETAILS ###

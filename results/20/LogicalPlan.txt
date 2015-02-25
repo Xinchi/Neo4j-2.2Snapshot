@@ -1,0 +1,72 @@
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(n),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(m),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(n),List(LabelName(Event)))),AllNodesScan(IdName(n),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),AllNodesScan(IdName(m),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.CartesianProduct
+CartesianProduct(NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()),NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.CartesianProduct
+CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+Argument(Set(IdName(n), IdName(m)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,ArrayBuffer())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,ArrayBuffer()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n), IdName(m))),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n$$$),IdName(  UNNAMED37),SimplePatternLength,ArrayBuffer())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(List(Equals(Identifier(n),Identifier(n$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n$$$),IdName(  UNNAMED37),SimplePatternLength,ArrayBuffer()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.SemiApply
+SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,ArrayBuffer())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.SemiApply
+SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,ArrayBuffer())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+Aggregation(SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,ArrayBuffer()))),Map(),Map(count(*) -> CountStar()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+Argument(Set(IdName(n), IdName(m)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.SemiApply
+SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+Aggregation(SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector()))),Map(),Map(count(*) -> CountStar()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+Argument(Set(IdName(n), IdName(m)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.SemiApply
+SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+Aggregation(SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector()))),Map(),Map(count(*) -> CountStar()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+Argument(Set(IdName(n), IdName(m)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.SemiApply
+SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+Aggregation(SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector()))),Map(),Map(count(*) -> CountStar()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+Argument(Set(IdName(n), IdName(m)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.SemiApply
+SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Aggregation
+Aggregation(SemiApply(CartesianProduct(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Selection(List(Equals(Identifier(m),Identifier(m$$$))),Expand(Argument(Set(IdName(n), IdName(m))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m$$$),IdName(  UNNAMED37),SimplePatternLength,Vector()))),Map(),Map(count(*) -> CountStar()))

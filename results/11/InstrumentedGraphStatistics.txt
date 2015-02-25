@@ -1,0 +1,7 @@
+-------------- Constructor ---------------
+inner = 
+org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@3322a233
+snapshot = 
+MutableGraphStatisticsSnapshot(Map())
+
+------- Read File -------

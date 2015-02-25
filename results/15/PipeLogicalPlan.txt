@@ -1,0 +1,10 @@
+### QUERY DETAILS ###
+match (n:Event) where n.Year <= 1975 optional match  (n)-[:Location]->(m:Place) return n.EventID, m.cityName
+### END OF DETAILS ###
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.OptionalExpand
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+

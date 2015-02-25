@@ -1,0 +1,66 @@
+neo4j-sh (?)$ profile match (n:Event)-[:Location]->(m) where n.Year <= 1975 return n.EventID, m.cityName;
++-----------------------------------+
+| n.EventID    | m.cityName         |
++-----------------------------------+
+| 197001210001 | "Quezon City"      |
+| 197001190002 | "Seattle"          |
+| 197001190003 | "Seattle"          |
+| 197000000002 | "Mexico city"      |
+| 197001010002 | "Cairo"            |
+| 197001150001 | "Montevideo"       |
+| 197001020001 | "Montevideo"       |
+| 197001120002 | "Rio Grande"       |
+| 197001020003 | "Madison"          |
+| 197001140001 | "Champaign"        |
+| 197001250001 | "West Point"       |
+| 197001130001 | "Seattle"          |
+| 197001200001 | "Guatemala City"   |
+| 197001090002 | "Rio Piedras"      |
+| 197001080001 | "Rome"             |
+| 197001060001 | "Denver"           |
+| 197001000001 | "Tarlac"           |
+| 197000000001 | "Santo Domingo"    |
+| 197001030001 | "Madison"          |
+| 197001300003 | "Coral Gables"     |
+| 197001270002 | "Norwalk"          |
+| 197001260001 | "West Point"       |
+| 197001280001 | "East Berlin"      |
+| 197001250002 | "New York City"    |
+| 197001220002 | "South Sioux City" |
+| 197001000003 | "Fukouka"          |
+| 197001310001 | "Bamban"           |
+| 197001020002 | "Oakland"          |
+| 197001050001 | "Baraboo"          |
+| 197001120001 | "New York City"    |
+| 197001000002 | "Athens"           |
+| 197001100001 | "East Berlin"      |
+| 197001090001 | "Detroit"          |
+| 197001280002 | "Seattle"          |
+| 197001300001 | "South Sioux City" |
+| 197001110001 | "Unknown"          |
+| 197001300002 | "South Sioux City" |
+| 197001220001 | "Caracas"          |
+| 197001190004 | "Jersey City"      |
+| 197001260003 | "New York City"    |
++-----------------------------------+
+40 rows
+87 ms
+
+Compiler CYPHER 2.2-cost
+
+Projection
+  |
+  +Expand
+    |
+    +Filter
+      |
+      +NodeByLabelScan
+
++-----------------+---------------+------+--------+-----------------------------+-------------------------------------+
+|        Operator | EstimatedRows | Rows | DbHits |                 Identifiers |                               Other |
++-----------------+---------------+------+--------+-----------------------------+-------------------------------------+
+|      Projection |            11 |   40 |    160 | m, m.cityName, n, n.EventID |               n.EventID, m.cityName |
+|          Expand |            11 |   40 |     80 |                        m, n |                        (n)-[:]->(m) |
+|          Filter |            12 |   40 |     80 |                           n | Property(n,Year(8)) <= {  AUTOINT0} |
+| NodeByLabelScan |            40 |   40 |     41 |                           n |                                 :20 |
++-----------------+---------------+------+--------+-----------------------------+-------------------------------------+

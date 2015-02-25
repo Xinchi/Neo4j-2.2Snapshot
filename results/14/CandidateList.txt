@@ -1,0 +1,214 @@
+----------------- bestPlan -----------------
+plans = 
+plans = empty
+
+
+----------------- bestPlan -----------------
+plans = 
+plans = empty
+
+
+----------------- bestPlan -----------------
+plans = 
+plans = empty
+
+
+----------------- bestPlan -----------------
+plans = 
+plans = empty
+
+
+----------------- bestPlan -----------------
+plans = 
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0)), HasLabels(Identifier(n),List(LabelName(Event)))),AllNodesScan(IdName(n),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(n),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+Return = 
+
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+----------------- bestPlan -----------------
+plans = 
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),AllNodesScan(IdName(m),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(m),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+Return = 
+
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+------------------------------ ++ ------------------------------
+Original CandidateList = 
+Added CandidateList = 
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+------------------------------ ++ ------------------------------
+Original CandidateList = 
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+Added CandidateList = 
+------------------------------ ++ ------------------------------
+Original CandidateList = 
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+Added CandidateList = 
+----------------- bestPlan -----------------
+plans = 
+plans = empty
+
+
+----------------- bestPlan -----------------
+plans = 
+plans = empty
+
+
+------------------------------ + ------------------------------
+Original CandidateList = 
+Added CandidateList = 
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+------------------------------ + ------------------------------
+Original CandidateList = 
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+Added CandidateList = 
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+----------------- bestPlan -----------------
+plans = 
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED48),SimplePatternLength,ArrayBuffer()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED48),SimplePatternLength,ArrayBuffer())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0)), HasLabels(Identifier(n),List(LabelName(Event)))),Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n),IdName(  UNNAMED48),SimplePatternLength,ArrayBuffer()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n),IdName(  UNNAMED48),SimplePatternLength,ArrayBuffer())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+Return = 
+
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+################################################################
+
+------------------------------ ++ ------------------------------
+Original CandidateList = 
+Added CandidateList = 
+------------------------------ ++ ------------------------------
+Original CandidateList = 
+Added CandidateList = 
+------------------------------ ++ ------------------------------
+Original CandidateList = 
+Added CandidateList = 
+------------------------------ ++ ------------------------------
+Original CandidateList = 
+Added CandidateList = 
+----------------- bestPlan -----------------
+plans = 
+plans = empty
+
+

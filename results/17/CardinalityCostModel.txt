@@ -1,0 +1,274 @@
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+
+---- Default Case --- 
+lhsCost = Cost(0.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(40.0)
+totalCost = Cost(40.0)
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+
+---- Default Case --- 
+lhsCost = Cost(40.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(40.0)
+totalCost = Cost(80.0)
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0)), HasLabels(Identifier(n),List(LabelName(Event)))),AllNodesScan(IdName(n),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(n),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(n),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+
+---- Default Case --- 
+lhsCost = Cost(0.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+
+---- Default Case --- 
+lhsCost = Cost(243.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+
+---- Default Case --- 
+lhsCost = Cost(0.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(29.0)
+totalCost = Cost(29.0)
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),AllNodesScan(IdName(m),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(m),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(m),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+
+---- Default Case --- 
+lhsCost = Cost(0.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(243.0)
+totalCost = Cost(243.0)
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+
+---- Default Case --- 
+lhsCost = Cost(243.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(243.0)
+totalCost = Cost(486.0)
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED16),SimplePatternLength,ArrayBuffer()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED16),SimplePatternLength,ArrayBuffer())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+---org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED16),SimplePatternLength,ArrayBuffer())
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+
+---- Default Case --- 
+lhsCost = Cost(0.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(40.0)
+totalCost = Cost(40.0)
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+
+---- Default Case --- 
+lhsCost = Cost(40.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(40.0)
+totalCost = Cost(80.0)
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+
+---- Default Case --- 
+lhsCost = Cost(80.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(12.0)
+totalCost = Cost(92.0)
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+
+---- Default Case --- 
+lhsCost = Cost(92.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(11.999999999999945)
+totalCost = Cost(103.99999999999994)
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0)), HasLabels(Identifier(n),List(LabelName(Event)))),Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n),IdName(  UNNAMED16),SimplePatternLength,ArrayBuffer()))
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n),IdName(  UNNAMED16),SimplePatternLength,ArrayBuffer())
+--org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+#-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n),IdName(  UNNAMED16),SimplePatternLength,ArrayBuffer())
+-org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+---------------- apply --------------
+################################################################
+#org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+------------------------ DETAILS OF THE ABOVE TREE ------------------------
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set())
+------------------------ END OF DETAILS ------------------------
+################################################################
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+
+---- Default Case --- 
+lhsCost = Cost(0.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(29.0)
+totalCost = Cost(29.0)
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+
+---- Default Case --- 
+lhsCost = Cost(29.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(29.0)
+totalCost = Cost(58.0)
+
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+
+---- Default Case --- 
+lhsCost = Cost(58.0)
+rhsCost = Cost(0.0)
+costForThisPlan = Cost(39.999999999999844)
+totalCost = Cost(97.99999999999984)
+

@@ -1,0 +1,106 @@
+############################### addSelections ############################### 
+QueryGraph(Set(),Set(),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### addPatternNodes ############################### 
+QueryGraph(Set(),Set(IdName(n), IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### addHints ############################### 
+QueryGraph(Set(),Set(IdName(n), IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### addShortestPaths ############################### 
+QueryGraph(Set(),Set(IdName(n), IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(n), IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### addPatternNodes ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set()),List(),Set(),Set())
+############################### addPredicates ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### addHints ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### addArgumentId ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### addPatternNodes ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set()),List(),Set(),Set())
+############################### addPredicates ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### addHints ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### addArgumentId ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### addPredicates ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### addPredicates ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set()),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set()),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set()),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set()),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set()),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set()),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set()),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set()),List(),Set(),Set())
+############################### allCoveredIds ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### allCoveredIds ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(n), IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))), Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### allCoveredIds ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### allCoveredIds ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(m), IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(m), IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(m), IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### withOptionalMatches ############################### 
+QueryGraph(Set(),Set(IdName(m), IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())
+############################### ++(other: QueryGraph) ############################### 
+QueryGraph(Set(),Set(IdName(m), IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set())

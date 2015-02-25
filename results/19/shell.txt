@@ -1,0 +1,29 @@
+neo4j-sh (?)$ profile match (n:Event), (m:Place)  return count(*);
++----------+
+| count(*) |
++----------+
+| 1160     |
++----------+
+1 row
+47 ms
+
+Compiler CYPHER 2.2-cost
+
+EagerAggregation
+  |
+  +CartesianProduct
+    |
+    +NodeByLabelScan(0)
+    |
+    +NodeByLabelScan(1)
+
++--------------------+---------------+------+--------+-------------+-------+
+|           Operator | EstimatedRows | Rows | DbHits | Identifiers | Other |
++--------------------+---------------+------+--------+-------------+-------+
+|   EagerAggregation |            34 |    1 |      0 |    count(*) |       |
+|   CartesianProduct |          1160 | 1160 |      0 |        m, n |       |
+| NodeByLabelScan(0) |            29 |   29 |     30 |           m |   :23 |
+| NodeByLabelScan(1) |            40 | 1160 |   1189 |           n |   :20 |
++--------------------+---------------+------+--------+-------------+-------+
+
+Total database accesses: 1219

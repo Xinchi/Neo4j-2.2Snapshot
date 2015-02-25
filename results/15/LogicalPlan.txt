@@ -1,0 +1,128 @@
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(n),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0)), HasLabels(Identifier(n),List(LabelName(Event)))),AllNodesScan(IdName(n),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+Argument(Set(IdName(n)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set(IdName(n)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(m),Set(IdName(n)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),AllNodesScan(IdName(m),Set(IdName(n))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set(IdName(n))),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n$$$),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(List(Equals(Identifier(n),Identifier(n$$$))),Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set(IdName(n))),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n$$$),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Optional
+Optional(Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Apply
+Apply(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Optional(Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer()))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.NodeByLabelScan
+NodeByLabelScan(IdName(m),Right(LabelId(23)),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(n),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.AllNodesScan
+AllNodesScan(IdName(m),Set())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),AllNodesScan(IdName(m),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(AllNodesScan(IdName(n),Set()),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(AllNodesScan(IdName(n),Set()),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.OuterHashJoin
+OuterHashJoin(Set(IdName(n)),Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Expand(NodeByLabelScan(IdName(m),Right(LabelId(23)),Set()),IdName(m),INCOMING,OUTGOING,List(RelTypeName(Location)),IdName(n),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Apply(Selection(ArrayBuffer(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Optional(Selection(ArrayBuffer(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,ArrayBuffer())))),Map(n.EventID -> Property(Identifier(n),PropertyKeyName(EventID)), m.cityName -> Property(Identifier(m),PropertyKeyName(cityName))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+Argument(Set(IdName(n)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Optional
+Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Apply
+Apply(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector()))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Apply(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())))),Map(n.EventID -> Property(Identifier(n),PropertyKeyName(EventID)), m.cityName -> Property(Identifier(m),PropertyKeyName(cityName))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+Argument(Set(IdName(n)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Optional
+Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Apply
+Apply(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector()))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Apply(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())))),Map(n.EventID -> Property(Identifier(n),PropertyKeyName(EventID)), m.cityName -> Property(Identifier(m),PropertyKeyName(cityName))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+Argument(Set(IdName(n)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Optional
+Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Apply
+Apply(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector()))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(Apply(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())))),Map(n.EventID -> Property(Identifier(n),PropertyKeyName(EventID)), m.cityName -> Property(Identifier(m),PropertyKeyName(cityName))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Argument
+Argument(Set(IdName(n)))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Expand
+Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Optional
+Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector())))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Apply
+Apply(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),Optional(Selection(Vector(HasLabels(Identifier(m),List(LabelName(Place)))),Expand(Argument(Set(IdName(n))),IdName(n),OUTGOING,OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector()))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.OptionalExpand
+OptionalExpand(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector(HasLabels(Identifier(m),List(LabelName(Place)))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(OptionalExpand(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector(HasLabels(Identifier(m),List(LabelName(Place))))),Map(n.EventID -> Property(Identifier(n),PropertyKeyName(EventID)), m.cityName -> Property(Identifier(m),PropertyKeyName(cityName))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.OptionalExpand
+OptionalExpand(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector(HasLabels(Identifier(m),List(LabelName(Place)))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(OptionalExpand(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector(HasLabels(Identifier(m),List(LabelName(Place))))),Map(n.EventID -> Property(Identifier(n),PropertyKeyName(EventID)), m.cityName -> Property(Identifier(m),PropertyKeyName(cityName))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.OptionalExpand
+OptionalExpand(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector(HasLabels(Identifier(m),List(LabelName(Place)))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(OptionalExpand(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector(HasLabels(Identifier(m),List(LabelName(Place))))),Map(n.EventID -> Property(Identifier(n),PropertyKeyName(EventID)), m.cityName -> Property(Identifier(m),PropertyKeyName(cityName))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.OptionalExpand
+OptionalExpand(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector(HasLabels(Identifier(m),List(LabelName(Place)))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(OptionalExpand(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector(HasLabels(Identifier(m),List(LabelName(Place))))),Map(n.EventID -> Property(Identifier(n),PropertyKeyName(EventID)), m.cityName -> Property(Identifier(m),PropertyKeyName(cityName))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Selection
+Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set()))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.OptionalExpand
+OptionalExpand(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector(HasLabels(Identifier(m),List(LabelName(Place)))))
+org.neo4j.cypher.internal.compiler.v2_2.planner.logical.plans.Projection
+Projection(OptionalExpand(Selection(Vector(LessThanOrEqual(Property(Identifier(n),PropertyKeyName(Year)),Parameter(  AUTOINT0))),NodeByLabelScan(IdName(n),Right(LabelId(20)),Set())),IdName(n),OUTGOING,List(RelTypeName(Location)),IdName(m),IdName(  UNNAMED57),SimplePatternLength,Vector(HasLabels(Identifier(m),List(LabelName(Place))))),Map(n.EventID -> Property(Identifier(n),PropertyKeyName(EventID)), m.cityName -> Property(Identifier(m),PropertyKeyName(cityName))))

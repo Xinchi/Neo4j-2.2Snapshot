@@ -1,0 +1,28 @@
+neo4j-sh (?)$ profile match (n:Event)-[:Location]->(m:Place) where n.Year <= 1975 return count(n);                                                                            +----------+           
+| count(n) |
++----------+
+| 40       |
++----------+
+1 row
+52 ms
+
+Compiler CYPHER 2.2-cost
+
+EagerAggregation
+  |
+  +Filter
+    |
+    +Expand
+      |
+      +NodeByLabelScan
+
++------------------+---------------+------+--------+-------------+-----------------------------------------------------------------+
+|         Operator | EstimatedRows | Rows | DbHits | Identifiers |                                                           Other |
++------------------+---------------+------+--------+-------------+-----------------------------------------------------------------+
+| EagerAggregation |             3 |    1 |      0 |    count(n) |                                                                 |
+|           Filter |            11 |   40 |    120 |        m, n | (Property(n,Year(8)) <= {  AUTOINT0} AND hasLabel(n:Event(20))) |
+|           Expand |            39 |   40 |     69 |        m, n |                                                    (m)<-[:]-(n) |
+|  NodeByLabelScan |            29 |   29 |     30 |           m |                                                             :23 |
++------------------+---------------+------+--------+-------------+-----------------------------------------------------------------+
+
+Total database accesses: 219

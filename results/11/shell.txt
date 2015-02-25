@@ -1,0 +1,31 @@
+neo4j-sh (?)$ profile match p=(n:Event)-[*..1]->(:Place) where n.Year <= 1975 return count(p);                                                                                +----------+           
+| count(p) |
++----------+
+| 40       |
++----------+
+1 row
+195 ms
+
+Compiler CYPHER 2.2-rule
+
+ColumnFilter
+  |
+  +EagerAggregation
+    |
+    +ExtractPath
+      |
+      +Filter
+        |
+        +TraversalMatcher
+
++------------------+------+--------+----------------------------------------------------------+----------------------------------------------------------------+
+|         Operator | Rows | DbHits |                                              Identifiers |                                                          Other |
++------------------+------+--------+----------------------------------------------------------+----------------------------------------------------------------+
+|     ColumnFilter |    1 |      0 |                                                 count(p) |                                          keep columns count(p) |
+| EagerAggregation |    1 |      0 |   INTERNAL_AGGREGATE900d1a0c-063a-49da-a1a0-c2ccff16b411 |                                                                |
+|      ExtractPath |   40 |      0 |                                                     n, p |                                                                |
+|           Filter |   40 |    855 |                                                        n | (hasLabel(:Place(23)) AND Property(n,Year(8)) <= {  AUTOINT0}) |
+| TraversalMatcher |  285 |    406 |                                                        n |                                                         , , ,  |
++------------------+------+--------+----------------------------------------------------------+----------------------------------------------------------------+
+
+Total database accesses: 1261

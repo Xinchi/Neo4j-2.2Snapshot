@@ -1,0 +1,41 @@
+neo4j-sh (?)$ profile match (n:Event), (m:Place) where (n)-[:Location]->(m) return count(*);
++----------+
+| count(*) |
++----------+
+| 40       |
++----------+
+1 row
+109 ms
+
+Compiler CYPHER 2.2-cost
+
+EagerAggregation
+  |
+  +SemiApply
+    |
+    +CartesianProduct
+    |  |
+    |  +NodeByLabelScan(0)
+    |  |
+    |  +NodeByLabelScan(1)
+    |
+    +Filter
+       |
+       +Expand
+         |
+         +Argument
+
++--------------------+---------------+------+--------+-------------+-----------------+
+|           Operator | EstimatedRows | Rows | DbHits | Identifiers |           Other |
++--------------------+---------------+------+--------+-------------+-----------------+
+|   EagerAggregation |            29 |    1 |      0 |    count(*) |                 |
+|          SemiApply |           870 |   40 |      0 |        m, n |                 |
+|   CartesianProduct |          1160 | 1160 |      0 |        m, n |                 |
+| NodeByLabelScan(0) |            29 |   29 |     30 |           m |             :23 |
+| NodeByLabelScan(1) |            40 | 1160 |   1189 |           n |             :20 |
+|             Filter |            39 |    0 |      0 |  m, m$$$, n |       m == m$$$ |
+|             Expand |            39 | 1160 |   2320 |  m, m$$$, n | (n)-[:]->(m$$$) |
+|           Argument |          1160 | 1160 |      0 |        m, n |                 |
++--------------------+---------------+------+--------+-------------+-----------------+
+
+Total database accesses: 3539

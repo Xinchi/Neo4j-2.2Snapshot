@@ -1,0 +1,222 @@
+ExpressionSelectivityCalculator(InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@452fb2a0,MutableGraphStatisticsSnapshot(Map())),IndependenceCombiner)
+----------------------------------------------------------------
+
+PatternSelectivityCalculator(InstrumentedGraphStatistics(org.neo4j.cypher.internal.spi.v2_2.TransactionBoundGraphStatistics@452fb2a0,MutableGraphStatisticsSnapshot(Map())),IndependenceCombiner)
+----------------------------------------------------------------
+
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(40.0))
+cardinalities.max = 
+Cardinality(40.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(243.0))
+cardinalities.max = 
+Cardinality(243.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(243.0))
+cardinalities.max = 
+Cardinality(243.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(29.0))
+cardinalities.max = 
+Cardinality(29.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(243.0))
+cardinalities.max = 
+Cardinality(243.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(243.0))
+cardinalities.max = 
+Cardinality(243.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(40.0))
+cardinalities.max = 
+Cardinality(40.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(40.0))
+cardinalities.max = 
+Cardinality(40.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(29.0))
+cardinalities.max = 
+Cardinality(29.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(29.0))
+cardinalities.max = 
+Cardinality(29.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(29.0))
+cardinalities.max = 
+Cardinality(29.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(40.0))
+cardinalities.max = 
+Cardinality(40.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n), IdName(m)),Set(IdName(n), IdName(m)),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(1.0))
+cardinalities.max = 
+Cardinality(1.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n), IdName(m)),Set(IdName(n), IdName(m)),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(1.0))
+cardinalities.max = 
+Cardinality(1.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(PatternRelationship(IdName(  UNNAMED37),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)),Set(IdName(n), IdName(m)),Set(IdName(n), IdName(m)),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(6.77403512337249E-4))
+cardinalities.max = 
+Cardinality(6.77403512337249E-4)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n), IdName(m)),Set(IdName(n), IdName(m)),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(1.0))
+cardinalities.max = 
+Cardinality(1.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n), IdName(m)),Set(IdName(n), IdName(m)),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(1.0))
+cardinalities.max = 
+Cardinality(1.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(PatternRelationship(IdName(  UNNAMED37),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)),Set(IdName(n), IdName(m)),Set(IdName(n), IdName(m)),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(6.77403512337249E-4))
+cardinalities.max = 
+Cardinality(6.77403512337249E-4)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(29.0))
+cardinalities.max = 
+Cardinality(29.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(40.0))
+cardinalities.max = 
+Cardinality(40.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m), IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(1160.0))
+cardinalities.max = 
+Cardinality(1160.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m), IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(1160.0))
+cardinalities.max = 
+Cardinality(1160.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(n), IdName(m)),Set(IdName(n), IdName(m)),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(1160.0))
+cardinalities.max = 
+Cardinality(1160.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(PatternRelationship(IdName(  UNNAMED37),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)),Set(IdName(n), IdName(m)),Set(IdName(n), IdName(m)),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(39.99999999999995))
+cardinalities.max = 
+Cardinality(39.99999999999995)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(PatternRelationship(IdName(  UNNAMED37),(IdName(n),IdName(m)),OUTGOING,List(RelTypeName(Location)),SimplePatternLength)),Set(IdName(n), IdName(m)),Set(IdName(n), IdName(m)),Selections(Set()),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(39.99999999999995))
+cardinalities.max = 
+Cardinality(39.99999999999995)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m), IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))), Predicate(Set(IdName(n), IdName(m)),PatternExpression(RelationshipsPattern(RelationshipChain(NodePattern(Some(Identifier(n)),List(),None,false),RelationshipPattern(Some(Identifier(  UNNAMED37)),false,List(RelTypeName(Location)),None,None,OUTGOING),NodePattern(Some(Identifier(m)),List(),None,false))))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(870.0))
+cardinalities.max = 
+Cardinality(870.0)
+####################
+########## apply ##########
+combinations = 
+Vector(QueryGraph(Set(),Set(IdName(m), IdName(n)),Set(),Selections(Set(Predicate(Set(IdName(m)),HasLabels(Identifier(m),List(LabelName(Place)))), Predicate(Set(IdName(n)),HasLabels(Identifier(n),List(LabelName(Event)))), Predicate(Set(IdName(n), IdName(m)),PatternExpression(RelationshipsPattern(RelationshipChain(NodePattern(Some(Identifier(n)),List(),None,false),RelationshipPattern(Some(Identifier(  UNNAMED37)),false,List(RelTypeName(Location)),None,None,OUTGOING),NodePattern(Some(Identifier(m)),List(),None,false))))))),List(),Set(),Set()))
+cardinalities = 
+Vector(Cardinality(870.0))
+cardinalities.max = 
+Cardinality(870.0)
+####################
