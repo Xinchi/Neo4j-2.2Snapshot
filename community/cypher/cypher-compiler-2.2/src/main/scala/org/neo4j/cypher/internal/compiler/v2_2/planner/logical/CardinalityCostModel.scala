@@ -64,70 +64,69 @@ case class CardinalityCostModel(cardinality: CardinalityModel) extends CostModel
   private def cardinalityForPlan(plan: LogicalPlan, input: QueryGraphCardinalityInput): Cardinality = plan match {
     case Selection(_, left) => {
       val result = cardinality(left, input)
-      val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CardinalityCostModel.txt", true)));
-      fbw.println("Cardinality in non-selection case = "+result.toString)
-      fbw.close()
+//      fbw.println("Cardinality in non-selection case = "+result.toString)
+//      fbw.close()
       result
     }
     case _                  => {
       val result = plan.lhs.map(p => cardinality(p, input)).getOrElse(cardinality(plan, input))
-      val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CardinalityCostModel.txt", true)));
-      fbw.println("Cardinality in non-selection case = "+result.toString)
-      fbw.close()
+//      val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CardinalityCostModel.txt", true)));
+//      fbw.println("Cardinality in non-selection case = "+result.toString)
+//      fbw.close()
       result
     }
   }
 //
-//  def log(msg:String) = {
-//    // Logger created by Max
-//    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("QueriedGraphStatistics.txt", true)));
-//    fbw.println("-------------------------------"+this.getClass+"---------------------------------\n")
-//    fbw.println(msg)
-//    fbw.println("----------------------------------------------------------------\n")
-//    fbw.close()
-//  }
 
   def apply(plan: LogicalPlan, input: QueryGraphCardinalityInput): Cost = {
-    val sb = new StringBuilder
-    sb.append(plan.getClass.getName+"\n")
-    plan match {
+    val fbwtemp = new PrintWriter(new BufferedWriter(new FileWriter("CardinalityCostModel.txt", true)));
+    fbwtemp.println("---------------- apply --------------")
+    fbwtemp.close()
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CardinalityCostModel.txt", true)));
+    plan.printPrettyTree("CardinalityCostModel.txt", true)
+    fbw.println(plan.getClass.getName+"\n")
+    val cost = plan match {
       case CartesianProduct(lhs, rhs) =>
+        fbw.println("---- Case CartesianProduct --- ")
         val cost = apply(lhs, input) + cardinality(lhs, input) * apply(rhs, input)
-        sb.append(cost.toString)
-        log(sb.toString())
+        fbw.println(cost.toString)
         cost
 
       case Apply(lhs, rhs) =>
+        fbw.println("---- Case Apply --- ")
         val newInput = input.withCardinality(cardinality(lhs, input))
         val lCost = apply(lhs, input)
         val rCost = apply(rhs, newInput)
         val cost = lCost + rCost
-        sb.append(cost.toString)
-        log(sb.toString())
+        fbw.println("lCost = " + lCost.toString)
+        fbw.println("rCost = "+rCost.toString)
+        fbw.println("cost = "+cost)
         cost
 
       case OuterHashJoin(_, lhs, rhs) =>
+        fbw.println("---- Case OuterHashJoin --- ")
         val lCost = apply(lhs, input)
         val rCost = apply(rhs, input)
         val cost = lCost + rCost
-        sb.append(cost.toString)
-        log(sb.toString())
+        fbw.println("lCost = " + lCost.toString)
+        fbw.println("rCost = "+rCost.toString)
+        fbw.println("cost = "+cost)
         cost
 
       case _ =>
+        fbw.println("---- Default Case --- ")
         val lhsCost = plan.lhs.map(p => apply(p, input)).getOrElse(Cost(0))
         val rhsCost = plan.rhs.map(p => apply(p, input)).getOrElse(Cost(0))
         val costForThisPlan = cardinalityForPlan(plan, input) * costPerRow(plan)
-        // Log created by Max
-        val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CardinalityCostModel.txt", true)));
-        fbw.println(plan.getClass.getName)
-        fbw.println("costForThisPlan = "+costForThisPlan.toString)
         val totalCost = costForThisPlan + lhsCost + rhsCost
-        fbw.println("totalCost = "+totalCost)
-        fbw.close()
-        sb.append(totalCost.toString)
-        log(sb.toString())
+        fbw.println("lhsCost = "+lhsCost.toString)
+        fbw.println("rhsCost = "+rhsCost.toString)
+        fbw.println("costForThisPlan = "+costForThisPlan.toString)
+        fbw.println("totalCost = "+totalCost.toString)
         totalCost
     }
+    fbw.println()
+    fbw.close()
+    return cost
   }
 }

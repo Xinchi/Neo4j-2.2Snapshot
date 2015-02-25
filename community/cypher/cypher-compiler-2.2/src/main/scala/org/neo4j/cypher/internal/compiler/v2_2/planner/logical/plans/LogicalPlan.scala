@@ -24,7 +24,7 @@ import java.lang.reflect.Method
 
 import org.neo4j.cypher.internal.compiler.v2_2.Foldable._
 import org.neo4j.cypher.internal.compiler.v2_2.Rewritable._
-import org.neo4j.cypher.internal.compiler.v2_2.ast.{Identifier, Expression}
+import org.neo4j.cypher.internal.compiler.v2_2.ast.{True, Identifier, Expression}
 import org.neo4j.cypher.internal.compiler.v2_2.perty._
 import org.neo4j.cypher.internal.compiler.v2_2.planner.PlannerQuery
 import org.neo4j.cypher.internal.compiler.v2_2.{InternalException, Rewritable}
@@ -99,6 +99,32 @@ abstract class LogicalPlan
 //    }
 //    sb.toString()
 //  }
+  def printPrettyTree(fileName: String, details: Boolean): Unit = {
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter(fileName, true)));
+    fbw.println("################################################################")
+    prettyTree(self, s"#", fbw, false)
+    if(details == true) {
+      fbw.println("------------------------ DETAILS OF THE ABOVE TREE ------------------------")
+      prettyTree(self, s"", fbw, true)
+      fbw.println("------------------------ END OF DETAILS ------------------------")
+    }
+    fbw.println("################################################################\n")
+    fbw.close()
+  }
+
+  def prettyTree(head: LogicalPlan, prefix: String, fbw: PrintWriter, details: Boolean): Unit = {
+    if(head == null || head == None) {
+      return
+    }
+    fbw.println(prefix + head.getClass.getName)
+    if(details)
+      fbw.println(head.toString)
+    if(head.lhs != null && !head.lhs.isEmpty)
+      prettyTree(head.lhs.get, prefix+"-", fbw, details)
+    if(head.rhs != null && !head.rhs.isEmpty)
+      prettyTree(head.rhs.get, prefix+"-", fbw, details)
+  }
+
 
   def updateSolved(newSolved: PlannerQuery): LogicalPlan = {
     val arguments = this.children.toList :+ newSolved

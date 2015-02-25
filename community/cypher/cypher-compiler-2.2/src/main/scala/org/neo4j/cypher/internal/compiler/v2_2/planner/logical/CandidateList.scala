@@ -32,11 +32,22 @@ case class CandidateList(plans: Seq[LogicalPlan] = Seq.empty) {
     sb.toString()
   }
 
+  def printPrettyPlans(plans: Seq[LogicalPlan], details: Boolean) = {
+    for(plan <- plans) plan.printPrettyTree("CandidateList.txt", details)
+  }
+
   def ++(other: CandidateList): CandidateList = {
     val candidateList = CandidateList(plans ++ other.plans)
+    val fbwtmp = new PrintWriter(new BufferedWriter(new FileWriter("CandidateList.txt", true)));
+    fbwtmp.println("------------------------------ ++ ------------------------------")
+    fbwtmp.println("Original CandidateList = ")
+    fbwtmp.close()
+    printPrettyPlans(plans, false)
     val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CandidateList.txt", true)));
-//    fbw.println("----------------- ++ -----------------")
-//    fbw.println("other = " +other.toString)
+    fbw.println("Added CandidateList = ")
+    fbw.close()
+    printPrettyPlans(other.plans, false)
+    //    fbw.println("other = " +other.toString)
 //    fbw.println("New CandidateList = "+candidateList.toString + "\n")
 //    fbw.close()
     candidateList
@@ -44,29 +55,36 @@ case class CandidateList(plans: Seq[LogicalPlan] = Seq.empty) {
 
   def +(plan: LogicalPlan) = {
     val candidateList = copy(plans :+ plan)
+    val fbwtmp = new PrintWriter(new BufferedWriter(new FileWriter("CandidateList.txt", true)));
+    fbwtmp.println("------------------------------ + ------------------------------")
+    fbwtmp.println("Original CandidateList = ")
+    fbwtmp.close()
+    printPrettyPlans(plans, false)
     val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CandidateList.txt", true)));
-//    fbw.println("----------------- + -----------------")
-//    fbw.println("plan = "+plan.toString)
-//    fbw.println("New CandidateList = "+candidateList.toString + "\n")
-//    fbw.close()
+    fbw.println("Added CandidateList = ")
+    fbw.close()
+    plan.printPrettyTree("CandidateList.txt", false)
     candidateList
   }
 
   final val VERBOSE = false
 
   def bestPlan(implicit context: LogicalPlanningContext): Option[LogicalPlan] = {
-    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CandidateList.txt", true)));
-    fbw.println("----------------- bestPlan -----------------")
-    fbw.println("context.cardinalityInput = \n" + context.cardinalityInput.toString+"\n\n")
-    fbw.println("plans = "+ plans.toString()+"\n\n")
+    val fbwtmp = new PrintWriter(new BufferedWriter(new FileWriter("CandidateList.txt", true)));
+    fbwtmp.println("----------------- bestPlan -----------------")
+    fbwtmp.println("plans = ")
+    fbwtmp.close()
+    printPrettyPlans(plans, true)
+
     val costs = context.cost
-    fbw.println("costs = " + costs.toString()+"\n\n")
     val comparePlans = (c: LogicalPlan) =>
       (-c.solved.numHints, costs(c, context.cardinalityInput), -c.availableSymbols.size)
 
-    if (VERBOSE) {
-      val sortedPlans = plans.sortBy(comparePlans)
+    val fbw = new PrintWriter(new BufferedWriter(new FileWriter("CandidateList.txt", true)));
 
+    if (VERBOSE) {
+      fbw.println("VERBOSE is true!!!!!!")
+      val sortedPlans = plans.sortBy(comparePlans)
       if (sortedPlans.size > 1) {
         println("Get best of:")
         fbw.println("Get best of:")
@@ -85,14 +103,21 @@ case class CandidateList(plans: Seq[LogicalPlan] = Seq.empty) {
       sortedPlans.headOption
     } else {
       if (plans.isEmpty) {
-        fbw.println("Return = None\n\n")
+        fbw.println("plans = empty\n\n")
         fbw.close()
         None
       }
       else {
         val some = Some(plans.minBy(comparePlans))
-        fbw.println("Return = "+some.toString+"\n\n")
+        if(some.isEmpty) {
+          fbw.println("plans.minBy(comparePlans) didn't produce a result")
+          fbw.close()
+          return some
+        }
+
+        fbw.println("Return = \n")
         fbw.close()
+        some.get.printPrettyTree("CandidateList.txt", false)
         some
       }
     }
